@@ -12,7 +12,7 @@ function App() {
       <div>
         <PageContainer className="main-content"/>
       </div>
-      <Footer />
+      <Footer className="w-100 mt-auto mb-0 bg-secondary p-4"/>
     </div>
 
   );
