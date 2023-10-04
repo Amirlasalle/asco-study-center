@@ -1,15 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Cairo:wght@200&family=Dancing+Script&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+
 .App {
   text-align: center;
   bottom: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+.main-content {
+  flex: 1;
 }
 
 header {
-  background-color: rgb(190, 222, 250);
+  background-color: white;
   color: black;
   height: 100%;
   /* background-image: radial-gradient(red,rgb(0, 34, 255), yellow);
    */
+}
+
+footer {
+  background-color: #3dcd58;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
 }
 
 .section-title {
@@ -19,34 +40,27 @@ header {
   color: white;
 }
 
-.myname {
-  font-family: 'Playfair Display', serif;
-  color: rgba(0, 0, 0, 0.72);
-  font-size: 2rem;
-  font-style: italic;
-  width: 30%;
-  letter-spacing: 3px;
-}
 
 .navtext {
   font-family: 'Quicksand', sans-serif;
 
 }
-
-.proPic {
-  float: left;
-  margin-top: 20px;
-  overflow: hidden;
+.custom-link{
+  color: #3dcd58 !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.25rem;
+}
+#navDropdown{
+  font-size: 1.25rem;
+  color: #3dcd58;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.homepageProPic {
-  float: left;
-  margin-left: 50px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  overflow: hidden;
-  box-shadow: -55px 1px rgb(255, 255, 113);
-}
+
 
 h3 {
   font-family: 'Cairo', sans-serif;
@@ -84,15 +98,3 @@ h3 {
   color: white;
 }
 
-/* .resumeBtn {
-  margin: 20px;
-}
-
-.footer--pin {
-  position: relative;
-  left: 0;
-  bottom: 0;
-}
-.ghost{
-  display: none;
-} */

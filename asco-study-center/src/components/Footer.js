@@ -4,11 +4,10 @@ import React from 'react';
 const Footer = () => {
 
   return (
-    <div>
-    <footer className="w-100 mt-auto bg-secondary p-4">
-      <div className="container text-center mb-5">
-
-        <h4>
+    <> 
+    <footer>
+    
+        <p>
           Thank you for visiting my page! {' '}
           <span
             className="emoji"
@@ -19,10 +18,10 @@ const Footer = () => {
             ❤️
           </span>{' '}
           Hope to connect with you soon!
-        </h4>
-      </div>
+        </p>
+
     </footer>
-    </div>
+    </>
   );
 };
 

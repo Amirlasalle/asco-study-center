@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 
 const AboutAsco = () => {
   return (<>
-    <h3 className="text-center section-title">About Me</h3>
-    <Container id="aboutme">
+    <h3 className="text-center section-title">About ASCO</h3>
+    <Container id="aboutasco">
       <Row>
 
         <Col xs={9} md={5}>
