@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:wght@200&family=Dancing+Script&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+.App {
+  text-align: center;
+  bottom: 0;
+}
+
+header {
+  background-color: rgb(190, 222, 250);
+  color: black;
+  height: 100%;
+  /* background-image: radial-gradient(red,rgb(0, 34, 255), yellow);
+   */
+}
+
+.section-title {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  background-color: grey;
+  color: white;
+}
+
+.myname {
+  font-family: 'Playfair Display', serif;
+  color: rgba(0, 0, 0, 0.72);
+  font-size: 2rem;
+  font-style: italic;
+  width: 30%;
+  letter-spacing: 3px;
+}
+
+.navtext {
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.proPic {
+  float: left;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.homepageProPic {
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  overflow: hidden;
+  box-shadow: -55px 1px rgb(255, 255, 113);
+}
+
+h3 {
+  font-family: 'Cairo', sans-serif;
+  color: black;
+
+}
+
+.abouttext {
+  margin-top: 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: start;
+
+}
+
+.toggle:hover {
+  color: rgb(103, 150, 150);
+}
+
+.quotetext {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: x-large;
+  text-align: center;
+}
+
+.btn1 {
+  color: black;
+  text-decoration: none;
+
+}
+
+
+.btn1:hover {
+  color: white;
+}
+
+/* .resumeBtn {
+  margin: 20px;
+}
+
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.ghost{
+  display: none;
+} */
