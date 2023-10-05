@@ -37,11 +37,36 @@ footer {
 .section-title {
   font-size: 2rem;
   letter-spacing: 3px;
-  background-color: grey;
+  background-color: #3dcd58;
   color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.smaller{
+  font-size: x-small;
+  text-align: start;
+  margin-top: 5px;
+}
+
+.asco-logo{
+  
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+    &:hover {
+        border: none;
+        filter: brightness(130%);
+        -webkit-filter: brightness(130%);
+        -moz-filter: brightness(130%);
+        -o-filter: brightness(130%);
+        -ms-filter: brightness(130%);
+        -webkit-transition: all 0.50s;
+        transition: all 0.50s;
+    }
 }
 
 
+/* .asco-logo img:hover{
+opacity: 0.5;
+} */
 .navtext {
   font-family: 'Quicksand', sans-serif;
 

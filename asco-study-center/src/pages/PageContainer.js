@@ -14,7 +14,7 @@ const PageContainer = () => {
         <Container fluid className="d-flex flex-wrap justify-content-around ">
           <Row>
             <Col xs={5} md={5}>
-              <Image src={process.env.PUBLIC_URL + "/images/ProPic.png"} className="img-fluid d-flex flex-wrap justify-content-around homepageProPic" roundedCircle />
+              <Image src={process.env.PUBLIC_URL + "asco-study-center/public/assets/sddefault.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around homepageProPic" roundedCircle />
             </Col>  </Row>
           <Col xs={10} md={10}>
             <p className='d-flex flex-wrap justify-content-around quotetext'>"A journey of a thousand lines begins with a single code."</p>

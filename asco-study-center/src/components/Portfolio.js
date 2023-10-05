@@ -20,7 +20,18 @@ const Portfolio = () => {
                         <Card.Title>{project.appname}</Card.Title>
                         <Card.Text>{project.breif}
                         </Card.Text>
-                        <Button variant="info" ><a href={project.github} target="_blank" rel="noreferrer" className="btn1" >Github <br></br>Repository</a></Button>&nbsp;&nbsp;&nbsp;
+                        <style type="text/css">
+                            {`
+    .btn-flat {
+      background-color: #3dcd58;
+      color: black;
+    }
+    .btn:hover{
+    background-color: yellow;
+    }
+    `}
+                        </style>
+                        <Button variant="flat" size="md" ><a href={project.github} target="_blank" rel="noreferrer" className="btn1" >Github <br></br>Repository</a></Button>&nbsp;&nbsp;&nbsp;
                         <Button variant="info"  ><a href={project.deployment} target="_blank" rel="noreferrer" className="btn1"  >Live <br></br>Deployment</a></Button>
                     </Card.Body>
                 </Card>
