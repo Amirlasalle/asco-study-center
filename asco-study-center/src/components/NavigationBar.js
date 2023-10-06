@@ -18,7 +18,7 @@ const NavigationBar = ({ page, handlePageChange }) => {
                 <Navbar.Collapse id="navbarScroll" >
                     <Nav
                         className="ml-auto mr-auto my-8 my-lg-4 outline-success navtext"
-                        // style={{ maxHeight: '100px' }}
+  
                         navbarScroll
                     >
                         <Nav.Link
@@ -36,10 +36,10 @@ const NavigationBar = ({ page, handlePageChange }) => {
                         </NavDropdown>
                         <Nav.Link href="#resume"
                             onClick={() => handlePageChange("resume")} className="custom-link"
-                        >something</Nav.Link>
+                        ></Nav.Link>
                         <Nav.Link href="#portfolio"
                             onClick={() => handlePageChange("portfolio")} className="custom-link"
-                        >something</Nav.Link>
+                        >Our Products</Nav.Link>
 
 
 

@@ -7,7 +7,7 @@ const Footer = () => {
     <> 
     <footer>
     
-        <p>
+        {/* <p>
           Thank you for visiting my page! {' '}
           <span
             className="emoji"
@@ -18,6 +18,11 @@ const Footer = () => {
             ❤️
           </span>{' '}
           Hope to connect with you soon!
+        </p> */}
+        <p>
+          <a href='#home'>
+          ©2023, ASCO Power Technologies
+          </a>
         </p>
 
     </footer>

@@ -1,8 +1,8 @@
 [
     {
-        "appname":"Venture Villa App",
+        "appname":"ASCO 7000 Series ATS",
         "brief":"This is an application that can be used to book a stay at a private home.",
-        "screenshot":"/images/venture-villa-app.png",
+        "screenshot":"/assets/asco7000ats.jpeg",
         "deployment":"https://venture-villa-app-f0af34deb85d.herokuapp.com/",
         "github":"https://github.com/Amirlasalle/venture-villa"
     },    

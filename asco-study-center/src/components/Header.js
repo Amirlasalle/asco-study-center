@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import AboutAsco from "./AboutAsco";
 import Contact from "./ContactMe";
 import Resume from "./Resume";
-import Portfolio from "./Portfolio";
+import Portfolio from "./Products";
 import React, { useState } from "react";
 
 const Header = () => {

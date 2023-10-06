@@ -86,8 +86,15 @@ opacity: 0.5;
   text-align: center;
 }
 
-
-
+.slide-text{
+  color: #fff;
+}
+.slide-title{
+  color: #fff;
+  
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  /* font-family: 'Fuzzy Bubbles', cursive; */
+}
 h3 {
   font-family: 'Cairo', sans-serif;
   color: black;
@@ -108,19 +115,26 @@ h3 {
 .quotetext {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: x-large;
   text-align: center;
+  color: #3dcd58;
 }
 
 .btn1 {
-  color: black;
+  color: #fff;
   text-decoration: none;
 
 }
 
 
 .btn1:hover {
-  color: white;
+  color: #3dcd58;
 }
 
+.homepagePic{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: center;
+}
