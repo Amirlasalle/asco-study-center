@@ -11,6 +11,8 @@ import Products from "../src/components/Products";
 import StudyCenter from "../src/components/StudyCenter";
 import QuizCenterOne from "../src/components/QuizCenterOne";
 
+
+
 function App() {
   return (
     <Router>
@@ -27,14 +29,14 @@ function App() {
           />
           <Route path="/studycenter" element={<StudyCenter />}
           />
-           <Route path="/quizcenterone" element={<QuizCenterOne />}
+          <Route path="/quizcenterone" element={<QuizCenterOne />}
           />
           <Route path="/contact" element={<Contact />}
           />
         </Routes>
-
-        <Footer />
       </div>
+      <Footer />
+
     </Router>
   );
 }

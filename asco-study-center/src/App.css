@@ -6,6 +6,7 @@ html, body {
 
 @import url('https://fonts.googleapis.com/css?family=Cairo:wght@200&family=Dancing+Script&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
 
+
 .App {
   text-align: center;
   bottom: 0;
@@ -16,6 +17,11 @@ html, body {
 .main-content {
   flex: 1;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure the container covers at least the full viewport height */
+}
 
 header {
   background-color: white;
@@ -25,13 +31,40 @@ header {
    */
 }
 
-footer {
-  background-color: #3dcd58;
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #3dcd58; 
   color: #fff;
-  text-align: center;
-  padding: 10px;
-  margin-top: auto;
-  margin-bottom: 0;
+  padding: 10px; 
+  text-align: left;
+  text-decoration: none;
+}
+.footer-text{
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+}
+.footer-text:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+.footer-image{
+  margin-left:0;
+  float: left;
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+    &:hover {
+        border: none;
+        filter: brightness(105%);
+        -webkit-filter: brightness(105%);
+        -moz-filter: brightness(105%);
+        -o-filter: brightness(105%);
+        -ms-filter: brightness(105%);
+        -webkit-transition: all 0.50s;
+        transition: all 0.50s;
+    }
 }
 
 .section-title {
@@ -48,7 +81,7 @@ footer {
 }
 
 .asco-logo{
-  
+  margin-left: 10px;
     -webkit-transition: all 0.50s;
     transition: all 0.50s;
     &:hover {

@@ -1,14 +1,14 @@
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
-// import Image from 'react-bootstrap/Image';
+import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import "../App.css"
 
 const AboutAsco = () => {
   return (<>
 
-    <Container id="aboutasco" className='p-0 m-auto' >
-      <h2 className="mt-4 text-center section-title">
+    <Container id="aboutasco" className=' mt-4 mb-auto' >
+      <h2 className="text-center section-title">
   About ASCO
   <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
     Power<br /> technologies
@@ -25,6 +25,10 @@ const AboutAsco = () => {
           </p>
 
         </Col>
+       
+        <Col>
+        <Image className='asco-logo' src={process.env.PUBLIC_URL + '/assets/nasa.jpg'} fluid /></Col>
+
       </Row>
     </Container>
 
