@@ -2,9 +2,9 @@ import NavigationBar from "./NavigationBar";
 import Container from 'react-bootstrap/Container';
 import AboutAsco from "./AboutAsco";
 import Contact from "./ContactMe";
-import Resume from "./Resume";
-import Portfolio from "./Products";
 import React, { useState } from "react";
+import Products from "./Products";
+import StudyCenter from "./StudyCenter";
 
 const Header = () => {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -16,11 +16,11 @@ const Header = () => {
     if (currentPage === 'contact') {
       return <Contact />;
     }
-    if (currentPage === 'portfolio') {
-      return <Portfolio />;
+    if (currentPage === 'products') {
+      return <Products />;
     }
-    if (currentPage === 'resume') {
-      return <Resume />;
+    if (currentPage === 'studycenter') {
+      return <StudyCenter />;
     }
   };
 

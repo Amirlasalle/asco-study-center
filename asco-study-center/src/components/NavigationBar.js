@@ -34,11 +34,11 @@ const NavigationBar = ({ page, handlePageChange }) => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="mailto:mirolasalle@gmail.com" onClick={() => handlePageChange()} className="custom-link">something</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#resume"
-                            onClick={() => handlePageChange("resume")} className="custom-link"
-                        ></Nav.Link>
-                        <Nav.Link href="#portfolio"
-                            onClick={() => handlePageChange("portfolio")} className="custom-link"
+                        <Nav.Link href="#study-center"
+                            onClick={() => handlePageChange("studycenter")} className="custom-link"
+                        >Study Center</Nav.Link>
+                        <Nav.Link href="#Proucts"
+                            onClick={() => handlePageChange("products")} className="custom-link"
                         >Our Products</Nav.Link>
 
 
@@ -56,10 +56,6 @@ const NavigationBar = ({ page, handlePageChange }) => {
                             </NavDropdown.Item>
                         </NavDropdown>
 
-
-                        <Nav.Link href="https://www.github.com/amirlasalle" className="custom-link">
-                            Github
-                        </Nav.Link>
                     </Nav>
 
                 </Navbar.Collapse>

@@ -1,0 +1,60 @@
+[
+    {
+        "studyQuestion": "what does HTML stand for? ",
+        "studyAnswer": "Hyper text markup language. "
+
+
+    },
+    {
+        "studyQuestion": "what does CSS stand for?",
+        "studyAnswer": "cascading style sheet"
+    },
+    {
+        "studyQuestion":"Load Test Switch: Load test switch to simulate normal power failure. (Maintained type).",
+        "studyAnswer":"Accessory 5L"
+        
+    }
+    ,
+    {
+        "studyQuestion":"Transfer Override Switch: Overrides automatic retransfer control so automatic transfer switch will remain connected to emergency power source regardless of condition of normal source. Pilot light indicates override status.",
+        "studyAnswer":"Accessory 6DL"
+    },
+    {
+        "studyQuestion":"Signal-Before-Transfer Contacts: A set of normally open/normally closed dry contacts operates in advance of retransfer to normal source. Interval shall be adjustable from 1 to 30 seconds.",
+        "studyAnswer":"Accessory 31Z"
+    },
+    {
+        "studyQuestion":"The transfer switch shall have load-shed and sequencing capability to allow up to nine selected loads to be disconnected prior to transfer in either direction. It shall be possible to vary the time sequence for reenergizing of the nine loads. ",
+        "studyAnswer":"Accessory 31CJ"
+    },
+    {
+        "studyQuestion":"Engine-Generator Exerciser: Solid-state, programmable-time switch starts engine generator and transfers load to it from normal source for a preset time, then retransfers and shuts down engine after a preset cool-downn period.",
+        "studyAnswer":"Accessory 11BE"
+    },
+    {
+        "studyQuestion":"Initiates exercise cycle at preset intervals adjustable from 7 to 30 days. Running periods shall be adjustable from 10 to 30 minutes. Factory settings shall be for 7-day exercise cycle, 20-minute running period, and 5-minute cool-down period.",
+        "studyAnswer":"Accessory 11BE"
+    },
+    {
+        "studyQuestion":"This accessory includes: Exerciser Transfer Selector Switch: Permits selection of exercise with and without load transfer.",
+        "studyAnswer":"Accessory 11BE"
+    },
+    {
+        "studyQuestion":" This accessory includes: Push-button programming control with digital display of settings.",
+        "studyAnswer":"Accessory 11BE"
+    },
+    {
+        "studyQuestion":"This accessory includes: Integral battery operation of time switch when normal control power is unavailable.",
+        "studyAnswer":"Accessory 11BE"
+    },
+    {
+        "studyQuestion":"Inhibit Transfer Control: Dry contact input overrides automatic transfer control so automatic transfer switch will not connect to emergency power source regardless of condition of normal source. Pilot light indicates override status. ",
+        "studyAnswer":"Accessory 34A & 34B"
+    },
+    {
+        "studyQuestion":"True or False: Accessory 34A is standard on both the 7000 series and the 300 series.",
+        "studyAnswer":"FALSE. Accessory 34A is standard on the 300 series only."
+    }
+    
+
+]
