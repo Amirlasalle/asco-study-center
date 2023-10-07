@@ -66,27 +66,27 @@ const NavigationBar = ({ page, handlePageChange }) => {
 
                         <NavDropdown title="Contact" id="navDropdown">
                             <NavDropdown.Item
-                                href="tel:+1(631)925-8216"
+                                href="https://www.youtube.com/@ASCOPowerTechnologies" target="_blank" rel="noreferrer"  
                                 onClick={() => handlePageChange()}
                                 className="custom-link"
                             >
-                                YouTube<span><i class="fa fa-youtube" aria-hidden="true"></i></span>
+                                YouTube<span>{' '}</span><span><i class="fa fa-youtube" aria-hidden="true"></i></span>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
-                                href="https://www.linkedin.com/in/amirlasalle/"
+                                href="https://www.linkedin.com/company/ascopowertechnologies/" target="_blank" rel="noreferrer"  
                                 onClick={() => handlePageChange()}
                                 className="custom-link"
                             >
-                                Contact 2
+                                LinkedIn<span>{' '}</span><span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
-                                href="mailto:mirolasalle@gmail.com"
+                                href="https://twitter.com/ascopower?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noreferrer"  
                                 onClick={() => handlePageChange()}
                                 className="custom-link"
                             >
-                                Contact 3
+                                Twitter<span>{' '}</span><span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
