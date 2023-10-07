@@ -32,21 +32,23 @@ function StudyCenter() {
   }, []);
 
   return (
-    <Container >
+    <Container className='mb-5 mt-5'>
       <div className="d-flex flex-wrap justify-content-around">
-      <Card className="m-2 p-2 flip-card" style={{ width: '18rem' }}>
+        <Card className="m-2 p-2 flip-card" style={{ width: '18rem' }}>
 
-        <Card className="flip-card-inner">
-          <Card className="flip-card-front">
-            <p id="studyQuestion"></p>
-          </Card>
-          <Card className="flip-card-back">
-            <p id="studyAnswer"></p>
+          <Card className="flip-card-inner">
+            <Card className="flip-card-front">
+              <p id="studyQuestion"></p>
+            </Card>
+            <Card className="flip-card-back">
+              <p id="studyAnswer"></p>
+            </Card>
           </Card>
         </Card>
-      </Card>
       </div >
-      <Button id="cardsButton" variant='info'>Next Flash Card</Button>
+      <div className='flex-wrap justify-content-around align-items-center cardsButton'>
+        <Button id="cardsButton" variant='info'>Next Flash Card</Button>
+      </div>
     </Container >
   );
 }

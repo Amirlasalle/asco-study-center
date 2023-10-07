@@ -1,7 +1,7 @@
 import NavigationBar from "./NavigationBar";
 import Container from 'react-bootstrap/Container';
 import AboutAsco from "./AboutAsco";
-import Contact from "./ContactMe";
+import Contact from "./QuizCenterOne";
 import React, { useState } from "react";
 import Products from "./Products";
 import StudyCenter from "./StudyCenter";

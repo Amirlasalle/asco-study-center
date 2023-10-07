@@ -6,9 +6,10 @@ import "react-bootstrap/dist/react-bootstrap.min.js";
 import Footer from "../src/components/Footer";
 import Header from "../src/components/Header";
 import AboutAsco from "../src/components/AboutAsco";
-import Contact from "../src/components/ContactMe";
+import Contact from "./components/QuizCenterOne";
 import Products from "../src/components/Products";
 import StudyCenter from "../src/components/StudyCenter";
+import QuizCenterOne from "../src/components/QuizCenterOne";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
           <Route path="/products" element={<Products />}
           />
           <Route path="/studycenter" element={<StudyCenter />}
+          />
+           <Route path="/quizcenterone" element={<QuizCenterOne />}
           />
           <Route path="/contact" element={<Contact />}
           />
