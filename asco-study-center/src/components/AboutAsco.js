@@ -6,14 +6,15 @@ import "../App.css"
 
 const AboutAsco = () => {
   return (<>
-<h3 className="text-center section-title">
+
+    <Container id="aboutasco" className='p-0 m-auto' >
+      <h2 className="mt-4 text-center section-title">
   About ASCO
   <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
     Power<br /> technologies
   </span>
-</h3>
+</h2>
 
-    <Container id="aboutasco">
       <Row>
 
         <Col xs={9} md={5}>

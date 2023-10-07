@@ -16,7 +16,7 @@ const PageContainer = () => {
     <div id="root">
 
       <div>
-        <Container secondary fluid className="d-flex flex-wrap justify-content-around ">
+        <Container fluid secondary="true" className="d-flex flex-wrap justify-content-around ">
 
 
           <Carousel slide={false}>
