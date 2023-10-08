@@ -42,7 +42,9 @@ header {
   z-index: 100;
 }
 
-
+.toggle{
+margin-right: 15px;
+}
 .footer {
   position: relative;
   bottom: 0;
@@ -147,6 +149,11 @@ opacity: 0.5;
   color: #fff;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   /* font-family: 'Fuzzy Bubbles', cursive; */
+}
+.timeline-title{
+  font-size: xx-large;
+  color: #000;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .slide-image{
 width: 100%;
