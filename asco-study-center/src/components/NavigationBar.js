@@ -7,10 +7,10 @@ import Image from 'react-bootstrap/Image';
 import '../App.css';
 import { Link } from 'react-router-dom';
 
-const NavigationBar = ({ page, handlePageChange }) => {
+const NavigationBar = ({ handlePageChange }) => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
-            <Container fluid>
+            <Container fluid >
                 <Navbar.Brand>
                     <Nav.Link
                         href="#home"
@@ -47,26 +47,32 @@ const NavigationBar = ({ page, handlePageChange }) => {
                         <NavDropdown title="Quizes" id="navDropdown" className='custom-link'>
                             <NavDropdown.Item
                                 href="#quizcenterone"
-                            ><Link to="/quizcenterone" className='custom-link'>Quiz 1</Link>
+                            ><Link to="/quizcenterone" className='custom-link'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                                Difficulty<br /> Level
+                            </span><i class="justify-content-between ml-2 fa fa-star-o" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
                                 href="#quizcenterone"
-                            ><Link to="/quizcenterone" className='custom-link'>Quiz 2</Link>
+                            ><Link to="/quizcenterone" className='custom-link'>Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                            Difficulty<br /> Level
+                        </span><i class="justify-content-between ml-2 fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
                                 href="#quizcenterone"
-                            ><Link to="/quizcenterone" className='custom-link'>Quiz 3</Link>
+                            ><Link to="/quizcenterone" className='custom-link'>Quiz 3<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                                Difficulty<br /> Level
+                            </span><i class="justify-content-between ml-2 fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Contact" id="navDropdown">
+                        <NavDropdown title="Social Media" id="navDropdown">
                             <NavDropdown.Item
-                                href="https://www.youtube.com/@ASCOPowerTechnologies" target="_blank" rel="noreferrer"  
+                                href="https://www.youtube.com/@ASCOPowerTechnologies" target="_blank" rel="noreferrer"
                                 onClick={() => handlePageChange()}
                                 className="custom-link"
                             >
@@ -74,7 +80,7 @@ const NavigationBar = ({ page, handlePageChange }) => {
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
-                                href="https://www.linkedin.com/company/ascopowertechnologies/" target="_blank" rel="noreferrer"  
+                                href="https://www.linkedin.com/company/ascopowertechnologies/" target="_blank" rel="noreferrer"
                                 onClick={() => handlePageChange()}
                                 className="custom-link"
                             >
@@ -82,7 +88,7 @@ const NavigationBar = ({ page, handlePageChange }) => {
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
-                                href="https://twitter.com/ascopower?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noreferrer"  
+                                href="https://twitter.com/ascopower?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noreferrer"
                                 onClick={() => handlePageChange()}
                                 className="custom-link"
                             >

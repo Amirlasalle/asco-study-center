@@ -22,14 +22,26 @@ html, body {
   flex-direction: column;
   min-height: 100vh; /* Make sure the container covers at least the full viewport height */
 }
+.outlined-text {
 
+  text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
+}
 header {
+  position: sticky !important;
   background-color: white;
   color: black;
   height: 100%;
-  /* background-image: radial-gradient(red,rgb(0, 34, 255), yellow);
-   */
+  top: 0;
+  z-index: 100;
 }
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: black;
+  z-index: 100;
+}
+
 
 .footer {
   position: relative;
@@ -179,7 +191,7 @@ h3 {
 
 
 .btn1:hover {
-  color: #3dcd58;
+  color: #fff;
 }
 
 .homepagePic{
