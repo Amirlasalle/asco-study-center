@@ -15,9 +15,8 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 const PageContainer = () => {
   const nextIconStyle = {
-    fontSize: '2rem',
+    fontSize: '3rem',
     fontWeight: 'bolder',
-    color: 'black',
   };
   return (
     <div id="root">
@@ -32,7 +31,7 @@ const PageContainer = () => {
               <Image src={process.env.PUBLIC_URL + "/assets/atslinedup.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around slide-image" />
               
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center position-relativeslide-title outlined-text text-center'>
-                <h2 className='position-relativeslide-title outlined-text'>ASCO Power Technologies ensures uninterrupted operational performance</h2><br></br>
+                <h2 className='position-relativeslide-title outlined-text'>ASCO Power Technologies ensures uninterrupted operational performance</h2>
                 <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '200px' }}>
                   <a href='https://www.youtube.com/watch?v=3zNO-2RBqKY' target="_blank" rel="noreferrer" className="btn1">Learn More</a>
                 </Button>
@@ -42,7 +41,7 @@ const PageContainer = () => {
               <Image src={process.env.PUBLIC_URL + "/assets/7000bypass.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around slide-image" />
 
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center position-relativeslide-title outlined-text text-center'>
-                <h2 className='position-relativeslide-title outlined-text'>Keep seeking knowledge!</h2><br></br>
+                <h2 className='position-relativeslide-title outlined-text'>Keep seeking knowledge!</h2>
                 <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '200px' }}><a href='https://www.youtube.com/playlist?list=PLOm6FLTQtSyJez1dBGsC9SoOuQas0pFk2' target="_blank" rel="noreferrer" className="btn1" >Start Learning <span><i class="fa fa-film" aria-hidden="true"></i></span></a></Button>
               </Carousel.Caption>
             </Carousel.Item>
@@ -50,7 +49,7 @@ const PageContainer = () => {
               <Image src={process.env.PUBLIC_URL + "/assets/ascoworking.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around slide-image" />
 
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center position-relativeslide-title outlined-text text-center'>
-                <h2 className='position-relativeslide-title outlined-text'>Meet the people of ASCO, and hear their story. Strive to the top!</h2><br></br>
+                <h2 className='position-relativeslide-title outlined-text'>Meet the people of ASCO, and hear their story. Strive to the top!</h2>
                 <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '200px' }}><a href='https://www.youtube.com/playlist?list=PLOm6FLTQtSyJd84_uDBxlwXH9_67b7o_Y' target="_blank" rel="noreferrer" className="btn1" >Team ASCO <span><i class="fa fa-users" aria-hidden="true"></i></span></a></Button>
               </Carousel.Caption>
             </Carousel.Item>
@@ -68,7 +67,7 @@ const PageContainer = () => {
 
 
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center position-relativeslide-title outlined-text text-center'>
-                <h2 className='position-relativeslide-title outlined-text'>ASCO's Digital Binder provides a various source of information</h2><br></br>
+                <h2 className='position-relativeslide-title outlined-text'>ASCO's Digital Binder provides a various source of information</h2>
                 <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '200px' }}><a href='https://asco-power.cld.bz/ASCO-Power-Technologies-Products-Digital-Binder' target="_blank" rel="noreferrer" className="btn1" >Read More <span><i class="fa fa-book" aria-hidden="true"></i></span></a></Button>
               </Carousel.Caption>
             </Carousel.Item>
@@ -76,7 +75,7 @@ const PageContainer = () => {
               <Image src={process.env.PUBLIC_URL + "/assets/ascodatacenter.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around slide-image" />
 
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center position-relativeslide-title outlined-text text-center'>
-                <h2 className='position-relativeslide-title outlined-text'>Data Centers nationwide trust ASCO for unmatched reliability</h2><br></br>
+                <h2 className='position-relativeslide-title outlined-text'>Data Centers nationwide trust ASCO for unmatched reliability</h2>
                 <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '220px' }}><a href='https://www.youtube.com/watch?v=3zNO-2RBqKY' target="_blank" rel="noreferrer" className="btn1" >Customer Testimonials <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button>
               </Carousel.Caption>
             </Carousel.Item>
@@ -84,7 +83,7 @@ const PageContainer = () => {
               <Image src={process.env.PUBLIC_URL + "/assets/ascohealthcare.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around slide-image" />
 
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center position-relativeslide-title outlined-text text-center'>
-                <h2 className='position-relativeslide-title outlined-text'>Residential Healthcare meets our Backup Power Solutions</h2><br></br>
+                <h2 className='position-relativeslide-title outlined-text'>Residential Healthcare meets our Backup Power Solutions</h2>
                 <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '200px' }}><a href='https://www.youtube.com/watch?v=wdvqnmcBFpo&t=1s' target="_blank" rel="noreferrer" className="btn1" >Watch Now <span><i class="fa fa-film" aria-hidden="true"></i></span></a></Button>
               </Carousel.Caption>
             </Carousel.Item>
