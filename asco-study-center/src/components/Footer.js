@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="mt-3 footer">
 
       <Link to="/asco-study-center" className='footer-image'> <Image className='footer-image' src={process.env.PUBLIC_URL + '/assets/ascologo.png'} fluid />
       </Link>

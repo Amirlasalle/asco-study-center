@@ -1,8 +1,8 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-// import Row from "react-bootstrap/esm/Row";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Carousel from 'react-bootstrap/Carousel';
 import '../App.css'
 import Button from 'react-bootstrap/Button';
@@ -19,7 +19,7 @@ const PageContainer = () => {
         <Container fluid secondary="true" className="d-flex flex-wrap justify-content-around mt-3">
 
 
-          <Carousel slide={false}>
+          <Carousel slide={false} variant="white" >
             <Carousel.Item>
               <Image src={process.env.PUBLIC_URL + "/assets/atslinedup.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around slide-image" />
               <Carousel.Caption>
@@ -73,11 +73,21 @@ const PageContainer = () => {
 
 
 
+          <Row className='d-flex flex-wrap justify-content-around quotetext'>
+            <Col xs={10} md={10}>
+              <p className='d-flex flex-wrap justify-content-around quotetext'>Welcome to the ASCO SDP Study Center! This is the starting point of our knowledge journey. Are you prepared?</p>
+            </Col>
+          </Row>
 
-          <Col xs={10} md={10}>
-            <p className='d-flex flex-wrap justify-content-around quotetext'>Welcome to the ASCO SDP Study Center! This is the starting point of our knowledge journey. Are you prepared?</p>
-          </Col>
-
+          {/* <Row>
+            <Carousel slide={false}>
+              <Carousel.Item>
+                <div className="m-5 video-container  justify-content-around">
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XbeMdqJUh8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </Carousel.Item>
+            </Carousel>
+          </Row> */}
         </Container>
       </div>
 
