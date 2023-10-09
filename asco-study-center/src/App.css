@@ -219,7 +219,12 @@ h3 {
   color: black;
 
 }
-
+.card-subt{
+  color: #3dcd58 !important;
+}
+.card-titles{
+  font-size: 50px;
+}
 .abouttext {
   margin-top: 20px;
   font-family: 'Quicksand', sans-serif;

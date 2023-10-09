@@ -1,73 +1,103 @@
 [
     {
-        "appname":"ASCO 7000 Series ATS",
-        "brief":"This is an application that can be used to book a stay at a private home.",
-        "screenshot":"/assets/asco7000ats.jpeg",
-        "deployment":"https://venture-villa-app-f0af34deb85d.herokuapp.com/",
-        "github":"https://github.com/Amirlasalle/venture-villa"
+        "productname":"ASCO 7000 Series ATS",
+        "subtitle":"For Mission Critical Applications",
+        "brief":"7000 SERIES Transfer Switches offers sophisticated solutions for switching loads for mission-critical facilities, They offer ASCO's widest range of ratings, transition sequences, and equipment configurations, including customization options.",
+        "screenshot":"/assets/products/asco7000ats.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66106-asco-7000-series-power-transfer-switch/?parent-subcategory-id=89094#overview"
+       
     },    
     {
-        "appname":"Note Taker APP",
-        "brief":"This is an application that can be used to write and save notes.",
-        "screenshot":"/images/noteTakerApp.png",
-        "deployment":"https://glacial-cliffs-13260.herokuapp.com/",
-        "github":"https://github.com/Amirlasalle/express.js-note-taker"
+        "productname":"ASCO 7000 SERIES Medium Voltage Transfer Switch",
+        "subtitle":"For Mission Critical Applications",
+        "brief":"ASCO protects medium voltage loads by offering maintainable and highly proven power transfer switches. The switches can be configured with protective relays and other options to meet specific project requirements.",
+        "screenshot":"/assets/products/7000medvoltage.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66107-asco-7000-series-medium-voltage-transfer-switch/?parent-subcategory-id=89094#overview"
     },
     {
-        "appname":"Group Awesome's Movie Generator",
-        "brief":"This application allows the user to get info on select movies and can check if a movie is currently playing in nearby theaters and it will display its showtimes.",
-        "screenshot":"/images/groupAwesomeMovieApp.png",
-        "deployment":"https://pvlln.github.io/project1-group-awesome/",
-        "github":"https://github.com/pvlln/project1-group-awesome"
+        "productname":"ASCO 7000 SERIES Low-Voltage Power Control System",
+        "subtitle":"Engineered Mission Critical Power",
+        "brief":"Custom-configured and manufactured to meet the complex emergency and prime power requirements of mission-critical facilities, the ASCO 7000 SERIES Paralleling Switchgear platform is designed, manufactured and thoroughly tested and certified to the toughest global standards, for operations of all sizes and requirements.",
+        "screenshot":"/assets/products/7000lowvoltage.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66147-asco-7000-series-lowvoltage-power-control-system/?parent-category-id=89131&parent-subcategory-id=89132&filter=business-4-low-voltage-products-and-systems#overview"
     },
     {
-        "appname":"Mealy App",
-        "brief":"This is an application that allows users to be more organized, and schedule their meals weekly.",
-        "screenshot":"/images/mealyApp.png",
-        "deployment":"https://mealy-app-dcae3e02089d.herokuapp.com/login",
-        "github":"https://github.com/erikchiodo/weekly-meal-planner-project"
+        "productname":"ASCO SERIES 300 Group G Power Transfer Switch",
+        "subtitle":"For Commercial or Light Industrial Use",
+        "brief":"Automatically transfer critical loads in the event of a power outage with the ASCO SERIES 300. Rugged construction and proven performance assure the user of many years of reliability.​",
+        "screenshot":"/assets/products/asco300series.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66108-asco-series-300-group-g-power-transfer-switch/?parent-subcategory-id=89094#overview"
     },
     {
-        "appname":"ASCO SDP Testing Center",
-        "brief":"This is the ASCO SDP testing center. This project currently has three sections. Which, consists of a study review section, and Two POP-Quizes.",
-        "screenshot":"/images/ascoTestCenter.png",
-        "deployment":"https://amirlasalle.github.io/ASCO_test-center/",
-        "github":"https://github.com/Amirlasalle/ASCO_test-center"
+        "productname":"ASCO SERIES 185 Power Transfer Switch",
+        "subtitle":"For Residential or Light Commercial Use",
+        "brief":"Get all the intelligence your optional standby system needs to make sure power stays on when the utility fails, with ASCO SERIES 185 Power Transfer Switches. When utility power has been restored, this line of power transfer switches will automatically transfer your loads back to utility and shut down the generator, saving fuel and standing ready to address the next utility failure.​",
+        "screenshot":"/assets/products/asco185series.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66110-asco-series-185-power-transfer-switch/?parent-subcategory-id=89094#overview"
     },
     {
-        "appname":"Weather Dashboard",
-        "brief":"By using a third-party API, I built a weather dashboard that will run in the browser and show real time weather conditions for all Major and some minor cities.",
-        "screenshot":"/images/weatherApp.png",
-        "deployment":"https://amirlasalle.github.io/weather_dashboard/",
-        "github":"https://github.com/Amirlasalle/weather_dashboard"
+        "productname":"ASCO 4000 SERIES Generator Paralleling Switchgear",
+        "subtitle":"Configured Critical Power",
+        "brief":"Start, synchronize, parallel, monitor and protect emergency, standby, and prime power systems with ASCO 4000 SERIES Generator Paralleling Switchgear.​",
+        "screenshot":"/assets/products/asco4000seriesparallel.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66143-asco-4000-series-generator-paralleling-switchgear/?parent-category-id=89131&parent-subcategory-id=89132&filter=business-4-low-voltage-products-and-systems#overview"
+       
     },
     {
-        "appname":"HTML Portfolio",
-        "brief":"This is my portfolio that was created using HTML and CSS.",
-        "screenshot":"/images/htmlPortfolio.png",
-        "deployment":"https://amirlasalle.github.io/Amirs_Portfolio/",
-        "github":"https://github.com/Amirlasalle/Amirs_PortfolioLinks/"
+        "productname":"ASCO 7000 SERIES Bypass Isolation Transfer Switch",
+        "subtitle":"For Mission Critical Applications",
+        "brief":"ASCO 7000 SERIES Automatic Transfer & Bypass-Isolation Switches are available in open transition, closed transition, and delayed transition designs. The bypass and isolation features allow the primary automatic transfer switch to be inspected, tested, and maintained without interrupting power to the load. They also provide redundant power transfer if the ATS is disabled or removed from service.​",
+        "screenshot":"/assets/products/asco7000bypass.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66111-asco-7000-series-bypass-isolation-transfer-switch/?parent-subcategory-id=89095#overview"
     },
     {
-        "appname":"Password Generator",
-        "brief":"This is an application that an employee can use to generate a random password based on criteria they've selected.",
-        "screenshot":"/images/passwordGenerator.png",
-        "deployment":"https://amirlasalle.github.io/password_generator/",
-        "github":"https://github.com/Amirlasalle/password_generator"
+        "productname":"ASCO 7000 SERIES Service Entrance Transfer Switch",
+        "subtitle":"For Mission Critical Applications",
+        "brief":"Our line of ASCO 7000 SERIES Service Entrance Power Transfer Switch combines automatic power switching with a disconnect and overcurrent protective device on the utility source. These are typically installed at facilities that have a single utility feed and a single emergency power source.​​",
+        "screenshot":"/assets/products/asco7000se.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66119-asco-7000-series-service-entrance-transfer-switch/?parent-subcategory-id=89096#overview"
     },
     {
-        "appname":"Code Quiz",
-        "brief":"This is an application that allows users to take a timed quiz, and allowing the user to save their score into the local storage.",
-        "screenshot":"/images/codeQuiz.png",
-        "deployment":"https://amirlasalle.github.io/web-apis_code-quiz/",
-        "github":"https://github.com/Amirlasalle/web-apis_code-quiz"
+        "productname":"ASCO SERIES 300 Service Entrance Power Transfer Switch",
+        "subtitle":"For Commercial or Light Industrial Use",
+        "brief":"Automatically transfer critical loads in the event of a power outage with the ASCO SERIES 300. Rugged construction and proven performance assure the user of many years of reliability.​​",
+        "screenshot":"/assets/products/asco300atsse.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66117-asco-series-300-service-entrance-power-transfer-switch/?parent-subcategory-id=89096#overview"
     },
     {
-        "appname":"Work Day Scheduler",
-        "brief":"This is an application is a simple calendar application that allows a user to save events for each hour of a typical working day (9am–5pm).",
-        "screenshot":"/images/workDayScheduler.png",
-        "deployment":"https://amirlasalle.github.io/work_scheduler/",
-        "github":"https://github.com/Amirlasalle/work_scheduler"
+        "productname":"ASCO SERIES 300 Service Entrance Manual Trans. Switch",
+        "subtitle":"For Commercial or Light Industrial Use",
+        "brief":"When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer switch and a connecting means can provide an adequate and cost effective solution. This equipment can provide access for an alternate power source when a generator malfunctions or is removed from service for maintenance.​",
+        "screenshot":"/assets/products/asco300mtsse.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66118-asco-series-300-service-entrance-manual-trans-switch/?parent-subcategory-id=89096#overview"
+    },
+    {
+        "productname":"ASCO SERIES 300 Service Entrance Manual Trans. Switch",
+        "subtitle":"For Commercial or Light Industrial Use",
+        "brief":"When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer switch and a connecting means can provide an adequate and cost effective solution. This equipment can provide access for an alternate power source when a generator malfunctions or is removed from service for maintenance.​",
+        "screenshot":"/assets/products/asco300mtsse.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66118-asco-series-300-service-entrance-manual-trans-switch/?parent-subcategory-id=89096#overview"
+    },
+    {
+        "productname":"ASCO SERIES 300 Manual Transfer Switch",
+        "subtitle":"For Commercial or Light Industrial Use",
+        "brief":"When power fails, businesses suffer. For some organizations, a permanent generator is too costly. Instead, a permanent means for quickly connecting a portable or temporary generator can make economic sense. Installing a manual transfer switch and a connecting means can provide an adequate and cost effective solution. This equipment can provide access for an alternate power source when a generator malfunctions or is removed from service for maintenance.​",
+        "screenshot":"/assets/products/asco300mtsse.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66113-asco-series-300-manual-transfer-switch/?parent-subcategory-id=89097#overview"
+    },
+    {
+        "productname":"ASCO SERIES 300 Quick Connect Manual Transfer Switches",
+        "subtitle":"Configurable with optional breakers for Backup Power on Optional Standby Systems or a Permanent Generator",
+        "brief":"The ASCO SERIES 300 manual transfer switch with integrated quick-connects and optionally integrated breakers provides a means for quickly connecting a portable or temporary generator to a building's electrical system to provide backup power, or to provide a “backup to the backup” when servicing an off-line engine-generator.​",
+        "screenshot":"/assets/products/mtsquickconnect.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/66114-asco-series-300-quick-connect-manual-transfer-switches/?parent-subcategory-id=89097#overview"
+    },
+    {
+        "productname":"ASCO SERIES 300 Manual Transfer Dual Quick Connect",
+        "subtitle":"ASCO SERIES 300 Manual Transfer Switch with Dual Purpose Quick Connects","subtitle2":"For Commercial or Light Industrial Use",
+        "brief":"The ASCO SERIES 300 manual transfer switch with dual purpose quick connects provides a means of load banking the permanent generator while providing a means for quickly connecting a portable or temporary generator to a building's electrical system to provide backup power.​",
+        "screenshot":"/assets/products/mtsdualconnect.jpeg",
+        "product":"https://www.ascopower.com/us/en/product-range/79291814-asco-series-300-manual-transfer-dual-quick-connect/?parent-subcategory-id=89097#overview"
     }
     
 ]
