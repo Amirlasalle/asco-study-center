@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
 
-      <Link to="/" className='footer-image'> <Image className='footer-image' src={process.env.PUBLIC_URL + '/assets/ascologo.png'} fluid />
+      <Link to="/asco-study-center" className='footer-image'> <Image className='footer-image' src={process.env.PUBLIC_URL + '/assets/ascologo.png'} fluid />
       </Link>
       <br></br>
       <br></br>

@@ -35,7 +35,7 @@ const AboutAsco = () => {
             </Carousel.Caption>
           </Carousel.Item>
             <Carousel.Item>
-              <Image src={process.env.PUBLIC_URL + "/assets/atslinedup.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image" />
+              <Image src={process.env.PUBLIC_URL + "/assets/nyc.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image" />
               <Carousel.Caption className='position-relativeslide-title about-outlined-cap'>
                 <h5 className='position-relativeslide-title about-outlined-text'>
                   At ASCO, we have a long history of innovation. In fact, it's part of our DNA. Since 1888, ASCO has prided itself on providing cutting edge technology and never compromising on quality.</h5><br></br>

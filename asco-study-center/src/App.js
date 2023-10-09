@@ -21,7 +21,7 @@ function App() {
         <Header />
 
         <Routes>
-          <Route path="/" element={<PageContainer />}
+          <Route path="/asco-study-center" element={<PageContainer />}
           />
           <Route path="/aboutasco" element={<AboutAsco />}
           />

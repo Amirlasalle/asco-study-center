@@ -14,7 +14,7 @@ const NavigationBar = ({ handlePageChange }) => {
                 <Navbar.Brand>
                     <Nav.Link
                         href="#home"
-                    ><Link to="/" className='custom-link'> <Image className='asco-logo' src={process.env.PUBLIC_URL + '/assets/asco-logo.png'} fluid />
+                    ><Link to="/asco-study-center" className='custom-link'> <Image className='asco-logo' src={process.env.PUBLIC_URL + '/assets/asco-logo.png'} fluid />
                         </Link>
 
                     </Nav.Link>
