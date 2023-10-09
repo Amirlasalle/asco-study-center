@@ -9,9 +9,9 @@ import { Link } from 'react-router-dom';
 
 const NavigationBar = ({ handlePageChange }) => {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="mb-0 p-0 navbarcolor">
             <Container fluid >
-                <Navbar.Brand>
+                <Navbar.Brand className='navbarBrand'>
                     <Nav.Link
                         href="#home"
                     ><Link to="/asco-study-center" className='custom-link'> <Image className='asco-logo' src={process.env.PUBLIC_URL + '/assets/asco-logo.png'} fluid />
@@ -19,9 +19,8 @@ const NavigationBar = ({ handlePageChange }) => {
 
                     </Nav.Link>
                 </Navbar.Brand>
-
                 <Navbar.Toggle aria-controls="navbarScroll" className='toggle' />
-                <Navbar.Collapse id="navbarScroll">
+                <Navbar.Collapse id="navbarScroll" className='navbar-scroll'>
                     <Nav className="ml-auto mr-auto my-8 my-lg-4 outline-success navtext" navbarScroll>
                         <Nav.Link
                             href="#aboutasco"
@@ -30,6 +29,7 @@ const NavigationBar = ({ handlePageChange }) => {
                                 About Asco
                             </Link>
                         </Nav.Link>
+
 
                         <Nav.Link
                             href="#products"><Link to="/products" className='custom-link'>
@@ -49,15 +49,15 @@ const NavigationBar = ({ handlePageChange }) => {
                                 href="#quizcenterone"
                             ><Link to="/quizcenterone" className='custom-link'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                 Difficulty<br /> Level
-                            </span><i class="justify-content-between ml-2 fa fa-star-o" aria-hidden="true"></i></Link>
+                            </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
                                 href="#quizcenterone"
                             ><Link to="/quizcenterone" className='custom-link'>Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
-                            Difficulty<br /> Level
-                        </span><i class="justify-content-between ml-2 fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></Link>
+                                Difficulty<br /> Level
+                            </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
@@ -65,18 +65,18 @@ const NavigationBar = ({ handlePageChange }) => {
                                 href="#quizcenterone"
                             ><Link to="/quizcenterone" className='custom-link'>Quiz 3<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                 Difficulty<br /> Level
-                            </span><i class="justify-content-between ml-2 fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></Link>
+                            </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Social Media" id="navDropdown">
+                        <NavDropdown title="Social Media" id="navDropdown" className=' mr-3 mb-3 custom-link navDropdown-menu'>
                             <NavDropdown.Item
                                 href="https://www.youtube.com/@ASCOPowerTechnologies" target="_blank" rel="noreferrer"
                                 onClick={() => handlePageChange()}
                                 className="custom-link"
                             >
-                                YouTube<span>{' '}</span><span><i class="fa fa-youtube" aria-hidden="true"></i></span>
+                                YouTube<span>{' '}</span><span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item

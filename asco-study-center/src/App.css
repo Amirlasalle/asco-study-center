@@ -28,18 +28,27 @@ html, body {
 }
 header {
   position: sticky !important;
-  background-color: white;
+  background-color: #fff;
   color: black;
   height: 100%;
   top: 0;
   z-index: 100;
 }
+.navbar-collapse {
+  margin: 0;
+  padding: 0;
+}
+.navbar.navbar-expand-lg .navbar-collapse {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 .navbar {
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: #fff;
   color: black;
   z-index: 100;
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.2); 
 }
 
 .toggle{
@@ -115,28 +124,75 @@ margin-right: 15px;
 opacity: 0.5;
 } */
 .navtext {
-  font-family: 'Quicksand', sans-serif;
-  color: #3dcd58 !important;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #191919 !important;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: left;
+  text-align: left;
   font-size: 1.3rem;
   text-decoration: none;
+  margin-left: 15px;
+}
+.fa-star{
+  color: #3dcd58;
+}
+
+.fa-youtube-play{
+  color: #ff0000;
+}
+.fa-linkedin-square{
+  color: #0077B5;
+}
+.fa-twitter-square{
+  color: #1DA1F2;
+}
+
+#navbarScroll{
+  background-color: lightgray;
 }
 .custom-link{
-  color: #3dcd58 !important;
+  color: #191919 !important;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  font-size: 1.25rem;
+  text-align: left;
+  font-size: 1.2rem;
   text-decoration: none;
+  margin-left: 15px;
 }
 #navDropdown{
-  font-size: 1.25rem;
-  color: #3dcd58;
+  background-color: lightgray;
+  font-size: 1.2rem;
+  color: #191919;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 0;
+}
+/* .navDropdown-menu{
+  margin-bottom: 15px;
+} */
+/* 992 */
+
+@media screen and (min-width: 992px){ 
+  #navbarScroll{
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  .custom-link{
+    background-color: #fff;
+    font-size: 1rem;
+    color: #191919;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+  #navDropdown{
+    background-color: #fff;
+    font-size: 1rem;
+    color: #191919;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
 }
 
 .slide-text{
