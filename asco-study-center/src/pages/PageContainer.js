@@ -15,8 +15,9 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 const PageContainer = () => {
   const nextIconStyle = {
-    fontSize: '4rem',
-    fontWeight: 'bold',
+    fontSize: '2rem',
+    fontWeight: 'bolder',
+    color: 'black',
   };
   return (
     <div id="root">
@@ -29,6 +30,7 @@ const PageContainer = () => {
             prevIcon={<FontAwesomeIcon icon={faChevronLeft} />}>
             <Carousel.Item>
               <Image src={process.env.PUBLIC_URL + "/assets/atslinedup.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around slide-image" />
+              
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center position-relativeslide-title outlined-text text-center'>
                 <h2 className='position-relativeslide-title outlined-text'>ASCO Power Technologies ensures uninterrupted operational performance</h2><br></br>
                 <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '200px' }}>
