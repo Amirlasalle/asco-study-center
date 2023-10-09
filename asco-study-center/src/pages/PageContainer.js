@@ -15,7 +15,7 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 const PageContainer = () => {
   const nextIconStyle = {
-    fontSize: '2rem',
+    fontSize: '4rem',
     fontWeight: 'bold',
   };
   return (
