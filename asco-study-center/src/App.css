@@ -89,6 +89,20 @@ margin-right: 15px;
         transition: all 0.50s;
     }
 }
+.text-center {
+  text-align: center;
+}
+.button-container {
+  text-align: center; 
+  margin-top: 5px; 
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
 
 .section-title {
   font-size: 2rem;
