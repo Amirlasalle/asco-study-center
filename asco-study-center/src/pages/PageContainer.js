@@ -21,6 +21,7 @@ const PageContainer = () => {
     fontSize: '3rem',
     fontWeight: 'bolder',
   };
+
   const [homepagecards] = useState(homepagecardsData)
   console.log(homepagecards)
   return (
@@ -98,19 +99,19 @@ const PageContainer = () => {
 
  <Row className='mt-4 custom-color'>
         <h3 className="mt-3 mb-3 bg-white text-left timeline-title">Welcome to the ASCO SDP Study Center! This is the starting point of our knowledge journey. Are you prepared?</h3>
-        <div id="ascotimeline" className="d-flex flex-wrap justify-content-around ">
+        <div id="homepageCards" className="d-flex flex-wrap justify-content-around ">
           {homepagecards.map((project, key) =>
 
-            <Card key={key} className="m-2 p-2 shadow-lg" style={{ width: '18rem' }}>
+          <Card key={key} variant="secondary" className="m-2 p-2 " style={{ width: '18rem', borderColor: "#fff", backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}>
               <Card.Body>
-                <Card.Title>{project.year}</Card.Title>
-                <Card.Text>{project.brief}
+                <Card.Title className="text-light">{project.title}</Card.Title><iframe width="240rem" height="auto" src={project.contentUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <Card.Text className="text-white">{project.description}
                 </Card.Text>
                 <Card.Text>{project.brief2}
                 </Card.Text>
                 <Card.Text>{project.brief3}
                 </Card.Text>
-
+                <Button variant="secondary" size="md" className="mb-1 mt-auto" ><a href={project.contentUrlButton} target="_blank" rel="noreferrer" className="btn1" >More information <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button>
                 {/* <Card.Link href="#">Card Link</Card.Link>
                   <Card.Link href="#">Another Link</Card.Link> */}
               </Card.Body>
