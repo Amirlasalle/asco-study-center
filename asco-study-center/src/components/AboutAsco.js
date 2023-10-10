@@ -15,30 +15,32 @@ const AboutAsco = () => {
   const [ascotimeline] = useState(ascotimelineData)
   console.log(ascotimeline)
   return (<>
+        <h2 className="text-center section-title">
+          About ASCO
+          <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+            Power<br /> technologies<span><i class="fa fa-trademark" aria-hidden="true"></i></span>
+          </span>
+        </h2>
+    <Container id="root" className='d-flex flex-wrap justify-content-around mt-4' >
+      <div>
 
-    <Container id="aboutasco" className=' mt-4 mb-auto' >
-      <h2 className="text-center section-title">
-        About ASCO
-        <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
-          Power<br /> technologies
-        </span>
-      </h2>
-
+      </div>
       <Row>
 
         <Col >
           <Carousel slide={false}><Carousel.Item>
-            <Image src={process.env.PUBLIC_URL + "/assets/nasa.jpg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image" />
+            <Image src={process.env.PUBLIC_URL + "/assets/tokyostreetbright.jpg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image" />
             <Carousel.Caption className='position-relativeslide-title about-outlined-text'>
               <h5 className='position-relativeslide-title about-outlined-text'>
-                At ASCO Power Technologies, we have a long history of innovation. We are on a constant drive to bring new technologies and new products to our customers to help them become more productive.</h5><br></br>
+                ASCO Power Technologies drives operational continuity
+              </h5>
             </Carousel.Caption>
           </Carousel.Item>
             <Carousel.Item>
-              <Image src={process.env.PUBLIC_URL + "/assets/nyc.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image" />
+              <Image src={process.env.PUBLIC_URL + "/assets/nasa.jpg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image" />
               <Carousel.Caption className='position-relativeslide-title about-outlined-cap'>
                 <h5 className='position-relativeslide-title about-outlined-text'>
-                  At ASCO, we have a long history of innovation. In fact, it's part of our DNA. Since 1888, ASCO has prided itself on providing cutting edge technology and never compromising on quality.</h5><br></br>
+                  Enrich your backup power knowledge</h5>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -72,19 +74,32 @@ const AboutAsco = () => {
 
       </Row>
 
+
+
       <Row className='mt-4 custom-color'>
-        <h3 className="mt-3 text-left timeline-title">Discover ASCO's Timeline</h3>
+        <h3 className="mt-3 about-asco-text">At ASCO Power Technologies, we have a long history of innovation. We are on a constant drive to bring new technologies and new products to our customers to help them become more productive.<br></br><br></br></h3>
+
+      </Row>
+
+      <Row className='mt-4  custom-color-years'>
+        <h3 className="mt-3 about-asco-text-years">For more than 125 years, ASCO Power Technologies has offered products and services for critical power applications.</h3>
+
+      </Row>
+
+
+      <Row className='mt-4 custom-color'>
+        <h className="mt-3 timeline-title">Discover ASCO's Timeline</h>
         <div id="ascotimeline" className="d-flex flex-wrap justify-content-around ">
           {ascotimeline.map((project, key) =>
 
-            <Card key={key} className="m-2 p-2 shadow-lg" style={{ width: '18rem' }}>
+            <Card key={key} className="m-2 p-2 shadow-lg timeline-card" style={{ width: '18rem', height: 'auto' }}>
               <Card.Body>
-                <Card.Title>{project.year}</Card.Title>
-                <Card.Text>{project.brief}
+                <Card.Title className='year-size ' >{project.year}</Card.Title>
+                <Card.Text className='brief'>{project.brief}
                 </Card.Text>
-                <Card.Text>{project.brief2}
+                <Card.Text className='brief'>{project.brief2}
                 </Card.Text>
-                <Card.Text>{project.brief3}
+                <Card.Text className='brief'>{project.brief3}
                 </Card.Text>
 
                 {/* <Card.Link href="#">Card Link</Card.Link>

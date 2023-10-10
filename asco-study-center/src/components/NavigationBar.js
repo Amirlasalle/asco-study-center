@@ -9,7 +9,8 @@ import { Link } from 'react-router-dom';
 
 const NavigationBar = ({ handlePageChange }) => {
     return (
-        <Navbar expand="lg" className="mb-0 p-0 navbarcolor">
+        <div className='m-0'>
+        <Navbar expand="lg" className=" navbarcolor">
             <Container fluid >
                 <Navbar.Brand className='navbarBrand'>
                     <Nav.Link
@@ -20,7 +21,7 @@ const NavigationBar = ({ handlePageChange }) => {
                     </Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" className='toggle' />
-                <Navbar.Collapse id="navbarScroll" className='navbar-scroll'>
+                <Navbar.Collapse id="navbarScroll" className='mb-0 mt-auto p-0 navbar-scroll'>
                     <Nav className="ml-auto mr-auto my-8 my-lg-4 outline-success navtext" navbarScroll>
                         <Nav.Link
                             href="#aboutasco"
@@ -99,6 +100,7 @@ const NavigationBar = ({ handlePageChange }) => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        </div>
     );
 };
 

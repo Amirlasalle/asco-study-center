@@ -18,7 +18,7 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 const PageContainer = () => {
   const nextIconStyle = {
-    fontSize: '3rem',
+    fontSize: '10vw',
     fontWeight: 'bolder',
   };
 
@@ -28,7 +28,7 @@ const PageContainer = () => {
     <div id="root">
 
       <div>
-        <Container fluid secondary="true" className="d-flex flex-wrap justify-content-around mt-3">
+        <Container fluid secondary="true" className="d-flex flex-wrap justify-content-around mt-3 ">
 
 
           <Carousel slide={false} nextIcon={<FontAwesomeIcon icon={faChevronRight} />} style={nextIconStyle}
@@ -64,8 +64,9 @@ const PageContainer = () => {
 
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center position-relativeslide-title outlined-text text-center'>
 
+               
                 <h className='position-relativeslide-title outlined-text'>ASCO Quick Connects ensure a reliable way to connect generators to infrastructures.</h>
-                <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '200px' }}><a href='https://www.youtube.com/watch?v=lbs_BC8cQwo' target="_blank" rel="noreferrer" className="btn1" >Learn More <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button>
+               <div> <Button variant="info" size="md" className="carousel-btn btn btn-block mx-auto" style={{ maxWidth: '200px' }}><a href='https://www.youtube.com/watch?v=lbs_BC8cQwo' target="_blank" rel="noreferrer" className="btn1" >Learn More <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button></div>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -98,13 +99,14 @@ const PageContainer = () => {
 
 
           <Row className='mt-4 custom-color'>
-            <h3 className="mt-3 mb-3 bg-white text-left timeline-title" style={{ borderColor: "#fff", backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}><br></br><br></br>Welcome to the ASCO SDP Study Center! This is the starting point of your knowledge journey. Are you prepared? <Button variant="info" size="md" className="carousel-btn btn-block mx-auto m-2" style={{ maxWidth: '200px' }}><a href='https://www.youtube.com/watch?v=wdvqnmcBFpo&t=1s' target="_blank" rel="noreferrer" className="btn1" >Start Learning <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button><br></br><br></br><br></br></h3>
+            <div>
+            <h3 className="mt-3 mb-3 bg-white text-left welcome" style={{ borderColor: "#fff", backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}><br></br><br></br>Welcome to the ASCO SDP Study Center! This is the starting point of your knowledge journey. Are you prepared?<br></br> <Button variant="info" size="md" className="carousel-btn btn-block mx-auto m-2 " style={{ maxWidth: '200px' }}><a href='https://www.youtube.com/watch?v=wdvqnmcBFpo&t=1s' target="_blank" rel="noreferrer" className="btn1" >Start Learning <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button><br></br><br></br><br></br></h3></div>
             <div id="homepageCards" className="d-flex flex-wrap justify-content-around ">
               {homepagecards.map((project, key) =>
 
                 <Card key={key} variant="secondary" className="m-2 p-2 " style={{ width: '18rem', borderColor: "#fff", backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}>
                   <Card.Body>
-                    <Card.Title className="text-light">{project.title}</Card.Title><iframe width="240rem" height="auto" src={project.contentUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <Card.Title className="text-light title">{project.title}</Card.Title><iframe width="240vw" height="auto" src={project.contentUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <Card.Text className="text-white">{project.description}
                     </Card.Text>
                     <Card.Text>{project.brief2}

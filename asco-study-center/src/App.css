@@ -116,17 +116,20 @@ header {
   right: 0;
   transform: translateY(-50%);
 }
-
+#aboutasco{
+  width: 100% !important;
+}
 .section-title {
-  font-size: 2rem;
+  font-size: 5vw;
   letter-spacing: 3px;
   background-color: #3dcd58;
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 5px;
 }
 
 .smaller {
-  font-size: x-small;
+  font-size: 1.7vw;
   text-align: start;
   margin-top: 5px;
 }
@@ -135,6 +138,7 @@ header {
   margin-left: 10px;
   -webkit-transition: all 0.50s;
   transition: all 0.50s;
+  width: 30vw;
 
   &:hover {
     border: none;
@@ -201,11 +205,10 @@ header {
   margin-bottom: 0;
 }
 /* 565 */
-/* .outlined-text {
-  text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 2px 0 #000, 2px 2px 0 #000;
-  font-size: 30px;
-} */
-@media screen and (min-width: 1441px) {
+.outlined-text {
+  font-size: 4vw;
+}
+/* @media screen and (min-width: 1441px) {
   .outlined-text {
     font-size-adjust: inherit;
     font-size: 70px;
@@ -267,29 +270,33 @@ header {
   .outlined-text {
     font-size: 10px;
   }
-}
+} */
 
 @media screen and (min-width: 992px) {
   #navbarScroll {
     background-color: #fff;
-    font-size: 1rem;
+    font-size: 1.5vw;
+    text-align: left;
   }
 
   .custom-link {
     background-color: #fff;
-    font-size: 1rem;
+    font-size: 1.5vw;
     color: #191919;
     justify-content: center;
     align-items: center;
     text-align: center;
+    left: 0;
   }
 
   #navDropdown {
     background-color: #fff;
-    font-size: 1rem;
+    font-size: 1.5vw;
     color: #191919;
     margin-top: 5px;
     margin-bottom: 0;
+    left: 0;
+    text-align: center;
   }
 }
 
@@ -303,6 +310,7 @@ header {
 .slide-title {
   color: #fff;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 5vw;
 }
 
 .about-outlined-text {
@@ -315,9 +323,9 @@ header {
   right: 0;
   transform: translateY(-50%);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 10px;
+  font-size: 4vw;
 }
 .about-outlined-text-home {
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -331,6 +339,7 @@ header {
   text-align: center;
   color: white;
   padding: 10px;
+  font-size: 4vw;
 }
 
 .about-outlined-cap {
@@ -347,8 +356,19 @@ header {
   padding: 10px;
 }
 
+/* @media screen and (max-width: 300px) {
+  .about-outlined-text {
+    font-size-adjust: inherit;
+    font-size: 15px;
+  }
+} */
+
 .custom-color {
   background-color: #f5f5f5;
+  margin: 0px !important;
+  padding: 0%;
+  left: 0;
+  right: 0px;
 }
 
 .video-container {
@@ -403,12 +423,119 @@ header {
   object-fit: cover;
   filter: brightness(30%);
 }
+.welcome {
+  color: #000;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 3vw;
+  text-align: center !important;
+  
+}
+
 .timeline-title {
+  color: #000;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 4vw;
+  left: 0;
+  right: 50% !important;
+}
+/* @media screen and (max-width: 350px) {
+  .btn {
+    width: 7rem;
+    height: 2rem;
+  }
+  .btn1{
+    font-size: 3vw;
+    align-content: center;
+  }
+} */
+/*
+@media screen and (min-width: 1250px) {
+  .timeline-card {
+    width: 40rem !important;
+  }
+} */
+/* @media screen and (min-width: 1250px) {
+  .year-size {
+    font-size: 40px !important;
+  }
+} */
+.year-size {
+  font-size: 3vw !important;
+}
+.brief {
+  font-size: 2vw;
+}
+.title{
+  font-size: 3vw;
+}
+
+/* @media screen and (min-width: 1250px) {
+  .brief {
+    font-size: 30px;
+  }
+} */
+.about-asco-text {
   font-size: xx-large;
   color: #000;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 3vw;
 }
-
+/* @media screen and (max-width: 350px) {
+  .about-asco-text {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+} */
+.fa-trademark{
+  font-size: 1vw !important;
+}
+.custom-color-years {
+  background-color: #3dcd58;
+  box-shadow: -9px 4px 5px 6px rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+  justify-content: flex-end;
+  /* border-radius: 10px;  */
+}
+.ascotime{
+  left: 0;
+  right: 0;
+  margin: -5px;
+}
+/* @media screen and (min-width: 576px){
+  .custom-color-years {
+    background-color: #3dcd58;
+    box-shadow: 0px 4px 5px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+  }
+} */
+.about-asco-text-years {
+  color: #fff;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 3vw;
+}
+/* @media screen and (min-width: 1750px) {
+  .about-asco-text-years {
+    font-size: 75px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about-asco-text-years {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-asco-text-years {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+  }
+} */
 .slide-image {
   width: 100%;
   height: 10vh;
