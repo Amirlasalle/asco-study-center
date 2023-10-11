@@ -156,8 +156,20 @@ header {
     transition: all 0.50s;
   }
 }
+.navbar .nav-item.nav-dropdown {
+  margin-right: 15px; 
+}
 
+.navbar .nav-dropdown .dropdown-menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 !important; 
+}
 
+.navbar .nav-dropdown .dropdown-menu a {
+  padding: 10px 20px; 
+  white-space: nowrap; 
+}
 
 .navtext {
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -335,15 +347,6 @@ header {
   }
   
 
-  #navDropdown {
-    background-color: #fff;
-    font-size: 1.5vw;
-    color: #191919;
-    margin-top: 5px;
-    margin-bottom: 0;
-    left: 0;
-    text-align: center;
-  }
 }
 
 .slide-text {

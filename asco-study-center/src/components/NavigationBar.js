@@ -11,7 +11,7 @@ const NavigationBar = ({ handlePageChange }) => {
     return (
         <div className='m-0'>
         <Navbar expand="lg" className="pb-0 navbarcolor">
-            <Container fluid >
+            <Container fluid text-center>
                 <Navbar.Brand className='navbarBrand'>
                     <Nav.Link
                         href="#home"

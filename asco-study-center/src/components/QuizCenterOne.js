@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
 function QuizCenterOne() {
-  const [timerCounter, setTimerCounter] = useState(60);
+  const [timerCounter, setTimerCounter] = useState(90);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [quizElDisplay, setQuizElDisplay] = useState(true);
@@ -62,7 +62,7 @@ function QuizCenterOne() {
 
   const restartQuiz = () => {
     // Reset all state variables to their initial values
-    setTimerCounter(60);
+    setTimerCounter(90);
     setCurrentQuestion(0);
     setScore(0);
     setQuizElDisplay(true);
