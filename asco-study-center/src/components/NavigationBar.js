@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 const NavigationBar = ({ handlePageChange }) => {
     return (
-        <div className='m-0'>
-        <Navbar expand="lg" className="pb-0 custom-links">
+        <div role='navigation' className='m-0'>
+        <Navbar className="fixed-top custom-links" bg="light" expand="lg">
             <Container fluid text-center>
                 <Navbar.Brand className='navbarBrand'>
                     <Nav.Link
