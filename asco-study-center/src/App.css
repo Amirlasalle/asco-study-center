@@ -143,7 +143,7 @@ header {
   margin-left: 10px;
   -webkit-transition: all 0.50s;
   transition: all 0.50s;
-  width: 30vw;
+  width: 13rem;
 
   &:hover {
     border: none;
@@ -155,31 +155,19 @@ header {
     -webkit-transition: all 0.50s;
     transition: all 0.50s;
   }
-}
-.navbar .nav-item.nav-dropdown {
-  margin-right: 15px; 
-}
+ }
 
-.navbar .nav-dropdown .dropdown-menu {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0 !important; 
-}
-
-.navbar .nav-dropdown .dropdown-menu a {
-  padding: 10px 20px; 
-  white-space: nowrap; 
-}
+.NavigationBar{
+  text-align: center;/* I used this to align all text within the Navigation File, use this for next time when making a Navbar*/
+  font-size: 1.3rem;
+  text-decoration: none;
+  background-color: #fff;
+} 
 
 .navtext {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #191919 !important;
-  justify-content: center;
-  align-items: left;
-  text-align: left;
-  font-size: 1.3rem;
   text-decoration: none;
-  margin-left: 15px;
 }
 
 .fa-star {
@@ -198,11 +186,9 @@ header {
   color: #1DA1F2;
 }
 
-#navbarScroll {
-  background-color: lightgray;
-}
 
-.custom-link {
+
+/* .custom-link {
   color: #191919 !important;
   justify-content: center;
   align-items: center;
@@ -211,28 +197,31 @@ header {
   text-decoration: none;
   margin-left: 15px;
   background: none !important;
-}
-.custom-links {
-  color: #191919 !important;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 1.2rem;
-  text-decoration: none;
-  margin-left: 15px;
-  padding: 0px !important;
-  background: none !important;
-}
+} */
+ .custom-links {
+  color: #000 !important;
+} 
 .custom-links a {
   text-decoration: none;
   background-color: transparent !important;
+  font-size: 1rem;
+  color: #000 !important;
 }
 
 .custom-links a:hover {
   text-decoration: underline;
-  color: #191919;
+  color: #000;
 }
-#navDropdown {
+.text{
+  border-radius: 0px;
+}
+.navbar-nav .dropdown-menu{
+  border-radius: 0;
+}
+.nav-link{
+  margin-left: 10px;
+}
+/* #navDropdown {
   background-color: lightgray;
   font-size: 1.2rem;
   color: #191919;
@@ -240,7 +229,7 @@ header {
   align-items: center;
   text-align: left;
   margin-bottom: 0;
-}
+} */
 /* 565 */
 .outlined-text {
   font-size: 4vw;
@@ -310,13 +299,13 @@ header {
 } */
 
 @media screen and (min-width: 992px) {
-  #navbarScroll {
+  /* #navbarScroll {
     background-color: #fff;
     font-size: 1.5vw;
     text-align: left;
-  }
+  } */
 
-  .custom-link {
+  /* .custom-link {
     background-color: #fff;
     font-size: 1.5vw;
     color: #191919;
@@ -324,8 +313,8 @@ header {
     align-items: center;
     text-align: center;
     left: 0;
-  }
-  .custom-links {
+  } */
+  /* .custom-links {
     font-size: 1.5vw;
     color: #191919;
     justify-content: center;
@@ -333,7 +322,7 @@ header {
     text-align: center;
     left: 0;
     background: none;
-  }
+  } */
   .smaller {
     font-size: 1vw;
     text-align: start;

@@ -10,18 +10,18 @@ import { Link } from 'react-router-dom';
 const NavigationBar = ({ handlePageChange }) => {
     return (
         <div className='m-0'>
-        <Navbar expand="lg" className="pb-0 navbarcolor">
+        <Navbar expand="lg" className="pb-0 custom-links">
             <Container fluid text-center>
                 <Navbar.Brand className='navbarBrand'>
                     <Nav.Link
                         href="#home"
-                    ><Link to="/asco-study-center" className='custom-link'> <Image className='asco-logo' src={process.env.PUBLIC_URL + '/assets/asco-logo.png'} fluid />
+                    ><Link to="/asco-study-center" className='custom-link'> <Image className='asco-logo' src={process.env.PUBLIC_URL + '/assets/asco-power-logo.png'} fluid />
                         </Link>
 
                     </Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" className='toggle' />
-                <Navbar.Collapse id="navbarScroll" className='mb-0 mt-auto p-0 navbar-scroll'>
+                <Navbar.Collapse id="navbarScroll" className='navbar-scroll'>
                     <Nav className="ml-auto mr-auto my-8 my-lg-4 outline-success navtext" navbarScroll>
                         <Nav.Link
                             href="#aboutasco"
@@ -45,10 +45,10 @@ const NavigationBar = ({ handlePageChange }) => {
 
                         </Nav.Link>
 
-                        <NavDropdown title="Quizes" id="navDropdown" className='mr-3 custom-links'>
+                        <NavDropdown title="Quizes" id="navDropdown" className='navbar-static  custom-links text'>
                             <NavDropdown.Item
                                 href="#quizcenterone"
-                            ><Link to="/quizcenterone" className='custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                            ><Link to="/quizcenterone" className=' custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                 Difficulty<br /> Level
                             </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i></Link>
 
@@ -56,8 +56,8 @@ const NavigationBar = ({ handlePageChange }) => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item
                                 href="#quizcentertwo"
-                            ><Link to="/quizcentertwo" className='custom-links'>Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}> Difficulty<br /> Level
-                            </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></Link>
+                            ><Link to="/quizcentertwo" className='custom-links'> <h >Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}> Difficulty<br /> Level
+                            </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></h></Link>
 
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
@@ -70,7 +70,7 @@ const NavigationBar = ({ handlePageChange }) => {
                             </NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Social Media" id="navDropdown" className=' mr-3 mb-3 pr-0 custom-links '>
+                        <NavDropdown title="Social Media" id="navDropdown" className=' pr-0 custom-links '>
                             <NavDropdown.Item
                                 href="https://www.youtube.com/@ASCOPowerTechnologies" target="_blank" rel="noreferrer"
                                 onClick={() => handlePageChange()}
