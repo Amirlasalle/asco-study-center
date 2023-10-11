@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const NavigationBar = ({ handlePageChange }) => {
     return (
         <div className='m-0'>
-        <Navbar expand="lg" className=" navbarcolor">
+        <Navbar expand="lg" className="pb-0 navbarcolor">
             <Container fluid >
                 <Navbar.Brand className='navbarBrand'>
                     <Nav.Link
@@ -45,37 +45,36 @@ const NavigationBar = ({ handlePageChange }) => {
 
                         </Nav.Link>
 
-                        <NavDropdown title="Quizes" id="navDropdown" className='custom-link'>
+                        <NavDropdown title="Quizes" id="navDropdown" className='mr-3 custom-links'>
                             <NavDropdown.Item
                                 href="#quizcenterone"
-                            ><Link to="/quizcenterone" className='custom-link'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                            ><Link to="/quizcenterone" className='custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                 Difficulty<br /> Level
                             </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
-                                href="#quizcenterone"
-                            ><Link to="/quizcenterone" className='custom-link'>Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
-                                Difficulty<br /> Level
+                                href="#quizcentertwo"
+                            ><Link to="/quizcentertwo" className='custom-links'>Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}> Difficulty<br /> Level
                             </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item
-                                href="#quizcenterone"
-                            ><Link to="/quizcenterone" className='custom-link'>Quiz 3<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                                href="#quizcenterthree"
+                            ><Link to="/quizcenterthree" className='custom-links'>Quiz 3<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                 Difficulty<br /> Level
                             </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></Link>
 
                             </NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Social Media" id="navDropdown" className=' mr-3 mb-3 custom-link navDropdown-menu'>
+                        <NavDropdown title="Social Media" id="navDropdown" className=' mr-3 mb-3 pr-0 custom-links '>
                             <NavDropdown.Item
                                 href="https://www.youtube.com/@ASCOPowerTechnologies" target="_blank" rel="noreferrer"
                                 onClick={() => handlePageChange()}
-                                className="custom-link"
+                                className="custom-links"
                             >
                                 YouTube<span>{' '}</span><span><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
                             </NavDropdown.Item>
@@ -83,7 +82,7 @@ const NavigationBar = ({ handlePageChange }) => {
                             <NavDropdown.Item
                                 href="https://www.linkedin.com/company/ascopowertechnologies/" target="_blank" rel="noreferrer"
                                 onClick={() => handlePageChange()}
-                                className="custom-link"
+                                className="custom-links"
                             >
                                 LinkedIn<span>{' '}</span><span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
                             </NavDropdown.Item>
@@ -91,7 +90,7 @@ const NavigationBar = ({ handlePageChange }) => {
                             <NavDropdown.Item
                                 href="https://twitter.com/ascopower?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noreferrer"
                                 onClick={() => handlePageChange()}
-                                className="custom-link"
+                                className="custom-links"
                             >
                                 Twitter<span>{' '}</span><span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
                             </NavDropdown.Item>

@@ -1,42 +1,59 @@
 [
     {
-        "question":"What does HTML stand for? ",
-        "choiceA":"Hyper Text Makeup language ",
-        "choiceB":"Henry Talks More than Larry ",
-        "choiceC":"Hyper Text Markup Language ",
-        "choiceD":"Hummus Taste More Love ",
-        "answer":"Hyper Text Markup Language"
+        "question":"What does ATS stand for? ",
+        "choiceA":"Automatic Transfer Switch",
+        "choiceB":"Amir Talks Sweetly",
+        "choiceC":"Anatomy of Transfer Switches",
+        "choiceD":"Alternate Transfer Source",
+        "answer":"Automatic Transfer Switch"
     },
     {
-        "question":"As of 2023, whats the most populated city in the world? ",
-        "choiceA":"Tookyoo 東京",
-        "choiceB":"New York City ニューヨーク",
-        "choiceC":"Itaewon  イテウォン",
-        "choiceD":"Rio de Janeiro",
-        "answer":"Tookyoo 東京"
+        "question":"What does ASCO stand for? ",
+        "choiceA":"American Society of Clinical Oncology",
+        "choiceB":"Automatic Switch Company",
+        "choiceC":"イテウォン",
+        "choiceD":"American Switch Company",
+        "answer":"Automatic Switch Company"
     },
     {
-        "question":"Whats the fastest animal in world? ",
-        "choiceA":"The Red-snapping Turtle ",
-        "choiceB":"The Pronghorn ",
-        "choiceC":"The Cheetah ",
-        "choiceD":"The Peregrine Falcon ",
-        "answer":"The Peregrine Falcon "
+        "question":"ATSs are commonly used in which of the following locations?",
+        "choiceA":"Coffee shops",
+        "choiceB":"Public libraries",
+        "choiceC":"Pet stores",
+        "choiceD":"Hospitals",
+        "answer":"Hospitals"
     },
     {
-        "question":"On record, how fast can a Cheetah run? ",
-        "choiceA":"220 MPH - 240 MPH",
-        "choiceB":"150 MPH - 180 MPH",
-        "choiceC":"50km/h - 75 km/h",
-        "choiceD":"110 km/h - 120km/h",
-        "answer":"110 km/h - 120km/h"
+        "question":"What is the primary function of an Automatic Transfer Switch(ATS)?",
+        "choiceA":"To generate electrical power",
+        "choiceB":"To switch between two power sources automatically",
+        "choiceC":"To control lighting systems",
+        "choiceD":"To regulate voltage in electrical circuits",
+        "answer":"To switch between two power sources automatically"
     },
     {
-        "question":"Whats the capital of Colombia",
-        "choiceA":"Bogoto",
-        "choiceB":"Cali",
-        "choiceC":"Medellin",
-        "choiceD":"Bogota",
-        "answer":"Bogota"
+        "question":"Which of the following is a common application for an ATS?",
+        "choiceA":"Operating a microwave oven",
+        "choiceB":"Transferring load between two sources whenever the Normal source becomes unavailable",
+        "choiceC":"Controlling home security systems",
+        "choiceD":"Regulating room temperature",
+        "answer":"Transferring load between two sources whenever the Normal source becomes unavailable"
+    },
+    {
+        "question":"ATSs are an essential component in ensuring uninterrupted power for which critical facilities?",
+        "choiceA":"Art galleries",
+        "choiceB":"Office buildings",
+        "choiceC":"Data centers",
+        "choiceD":"Bowling alleys",
+        "answer":"Data centers"
+    },
+    {
+        "question":"In a sophisticated ATS system, what is the purpose of a power quality monitoring module?",
+        "choiceA":"To measure the fuel consumption of the backup generator",
+        "choiceB":"To analyze and record data on voltage fluctuations, harmonics, and power factor",
+        "choiceC":"To synchronize the utility power with the generator power",
+        "choiceD":"To regulate the frequency of the electrical output",
+        "answer":"To analyze and record data on voltage fluctuations, harmonics, and power factor"
     }
+   
 ]

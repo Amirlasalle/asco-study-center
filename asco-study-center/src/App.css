@@ -133,6 +133,11 @@ header {
   text-align: start;
   margin-top: 5px;
 }
+.smaller-pt {
+  font-size: 1.7vw;
+  text-align: start;
+  margin-top: 5px;
+}
 
 .asco-logo {
   margin-left: 10px;
@@ -189,12 +194,32 @@ header {
   color: #191919 !important;
   justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
   font-size: 1.2rem;
   text-decoration: none;
   margin-left: 15px;
+  background: none !important;
+}
+.custom-links {
+  color: #191919 !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 0px !important;
+  background: none !important;
+}
+.custom-links a {
+  text-decoration: none;
+  background-color: transparent !important;
 }
 
+.custom-links a:hover {
+  text-decoration: underline;
+  color: #191919;
+}
 #navDropdown {
   background-color: lightgray;
   font-size: 1.2rem;
@@ -288,6 +313,27 @@ header {
     text-align: center;
     left: 0;
   }
+  .custom-links {
+    font-size: 1.5vw;
+    color: #191919;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 0;
+    background: none;
+  }
+  .smaller {
+    font-size: 1vw;
+    text-align: start;
+    margin-top: -5px;
+    background: none;
+  }
+  .smaller-pt {
+    font-size: 1.7vw;
+    text-align: start;
+    margin-top: 5px;
+  }
+  
 
   #navDropdown {
     background-color: #fff;

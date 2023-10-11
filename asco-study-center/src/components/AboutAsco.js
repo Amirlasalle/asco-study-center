@@ -17,7 +17,7 @@ const AboutAsco = () => {
   return (<>
         <h2 className="text-center section-title">
           About ASCO
-          <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+          <span className="smaller-pt" style={{ display: 'inline-block', verticalAlign: 'top' }}>
             Power<br /> technologies<span><i class="fa fa-trademark" aria-hidden="true"></i></span>
           </span>
         </h2>

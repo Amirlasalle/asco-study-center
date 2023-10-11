@@ -1,0 +1,59 @@
+[
+    {
+        "question":"What is the advantage of an open-transition ATS compared to a closed-transition ATS?",
+        "choiceA":"Open-transition ATS is less expensive",
+        "choiceB":"Open-transition ATS provides a smoother transfer",
+        "choiceC":"closed-transition ATS is faster",
+        "choiceD":"Closed-transition ATS is more energy-efficient",
+        "answer":"Open-transition ATS is less expensive"
+    },
+    {
+        "question":"In the event of a power outage, how does an ATS decide when to switch to the backup power source?",
+        "choiceA":"Randomly",
+        "choiceB":"After a fixed time delay",
+        "choiceC":"When voltage falls below a certain threshold",
+        "choiceD":"When the moon is full",
+        "answer":"When voltage falls below a certain threshold"
+    },
+    {
+        "question":"What is the purpose of the test button on an ATS?",
+        "choiceA":"To turn on the lights",
+        "choiceB":"To simulate a power outage and test the ATS's functionality",
+        "choiceC":"To switch to the backup power source",
+        "choiceD":"To reset the ATS",
+        "answer":"To simulate a power outage and test the ATS's functionality"
+    },
+    {
+        "question":"Which of the following is a disadvantage of manual transfer switches compared to automatic transfer switches?",
+        "choiceA":"Manual switches are more expensive",
+        "choiceB":"Manual switches require human intervention to operate",
+        "choiceC":"Manual switches are more reliable",
+        "choiceD":" Manual switches are faster in transferring power",
+        "answer":"Manual switches require human intervention to operate"
+    }, 
+    {
+        "question":"Which of the following is NOT a common method for ATS testing and maintenance?",
+        "choiceA":"Manual load testing",
+        "choiceB":"Remote monitoring",
+        "choiceC":"Weekly exercise testing",
+        "choiceD":"Yearly visual inspection",
+        "answer":"Weekly exercise testing"
+    },  
+    {
+        "question":"Which type of ATS is typically used in critical applications where uninterrupted power is essential, such as hospitals and data centers?",
+        "choiceA":"Closed-transition ATS",
+        "choiceB":"Open-transition ATS",
+        "choiceC":"Delayed-transition ATS",
+        "choiceD":"Broken-transition ATS",
+        "answer":"Closed-transition ATS"
+    },
+    {
+        "question":"In a three-phase ATS system, how many poles does the transfer switch typically have?",
+        "choiceA":"1 pole",
+        "choiceB":"2 pole",
+        "choiceC":"3 or 4 pole",
+        "choiceD":"5 pole",
+        "answer":"3 or 4 pole"
+    }
+    
+]

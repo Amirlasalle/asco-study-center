@@ -10,6 +10,8 @@ import Contact from "./components/QuizCenterOne";
 import Products from "../src/components/Products";
 import StudyCenter from "../src/components/StudyCenter";
 import QuizCenterOne from "../src/components/QuizCenterOne";
+import QuizCenterTwo from "../src/components/QuizCenterTwo";
+import QuizCenterThree from "../src/components/QuizCenterThree";
 
 
 
@@ -30,6 +32,10 @@ function App() {
           <Route path="/studycenter" element={<StudyCenter />}
           />
           <Route path="/quizcenterone" element={<QuizCenterOne />}
+          />
+           <Route path="/quizcentertwo" element={<QuizCenterTwo />}
+          />
+           <Route path="/quizcenterthree" element={<QuizCenterThree />}
           />
           <Route path="/contact" element={<Contact />}
           />
