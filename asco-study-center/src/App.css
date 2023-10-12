@@ -39,6 +39,9 @@ body {
 .top{
   top: 0;
 }
+.mar{
+  margin-bottom: 83.45px;
+}
 .navbar-collapse {
   margin: 0;
   padding: 0;
@@ -151,8 +154,8 @@ left: 0 !important;
 }
 
 .footer-image {
-  margin-left: 0;
-  float: left;
+  margin-right: 0;
+  float: right;
   -webkit-transition: all 0.50s;
   transition: all 0.50s;
 
@@ -171,10 +174,10 @@ left: 0 !important;
   min-width: 25%;
   width: 100%;
 }
-/* .carousel-item{
-  height: 60vh;
-  width: 100vw;
-} */
+
+.navbar-scroll{
+  margin-bottom: 0px !important;
+}
 .carousel-caption {
   position: absolute;
   top: 50%;
@@ -276,7 +279,7 @@ left: 0 !important;
   transform: translateY(-50%);
   text-align: center;
   color: white;
-  font-size: 2.2rem !important;
+  font-size: 2rem !important;
 }
 
 .about-outlined-cap {
@@ -291,7 +294,7 @@ left: 0 !important;
   text-align: center;
   color: white;
   padding: 10px;
-  font-size: 1.8rem !important;
+  font-size: 1.5rem !important;
   
 }
 
@@ -574,6 +577,11 @@ button {
       font-size: 3rem !important;
     }
   }
+  @media screen and (min-width: 992px) {
+    .mar{
+      margin-bottom: 104.5px;
+    }
+  }
 
 @media screen and (max-width: 650px) {
 .about-outlined-text {
@@ -618,20 +626,20 @@ button {
       text-align: center;
       color: white;
       padding: 10px;
-      font-size: 1.2rem !important;
+      font-size: .8rem !important;
     }
     .outlined-text {
       font-family: 'M PLUS Rounded 1c', sans-serif;
       justify-content: center;
       text-align: center;
       position: absolute;
-      top: 50%;
+      top: 45%;
       left: 0;
       right: 0;
       transform: translateY(-50%);
       text-align: center;
       color: white;
       padding: 10px;
-      font-size: 1rem !important;
+      font-size: .8rem !important;
     }
     }

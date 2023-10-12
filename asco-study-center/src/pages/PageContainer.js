@@ -138,7 +138,7 @@ const PageContainer = () => {
               <Carousel.Item>
                 <Image src={process.env.PUBLIC_URL + "/assets/tokyostreetdigital.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image-home" />
                 <Carousel.Caption className='  about-outlined-cap'>
-                  <h5 className='about-outlined-cap'>
+                  <h5 className='  about-outlined-cap'>
                     Reliable and strong,<br></br>
                     ASCO powers the future,<br></br>
                     Innovation's song.</h5>

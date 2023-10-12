@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 const NavigationBar = ({ handlePageChange }) => {
     return (
-        <div role='navigation' className='mar'>
-        <Navbar className="custom-links" bg="light" expand="lg">
+        <div role='navigation' className='bg-body-tertiary mar'>
+        <Navbar className="fixed-top custom-links bg-body-tertiary" bg="light" expand="lg">
             <Container fluid text-center>
                 <Navbar.Brand className='navbarBrand'>
                     <Nav.Link
@@ -45,7 +45,7 @@ const NavigationBar = ({ handlePageChange }) => {
 
                         </Nav.Link>
 
-                        <NavDropdown title="Quizes" id="navDropdown" className='navbar-static  custom-links text'>
+                        <NavDropdown title="Quizes"  id="navDropdown" className='navbar-static  custom-links text'>
                             <NavDropdown.Item
                                 href="#quizcenterone"
                             ><Link to="/quizcenterone" className=' custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
