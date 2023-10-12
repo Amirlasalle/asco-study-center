@@ -74,7 +74,7 @@ const PageContainer = () => {
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center outlined-text text-center'>
                 <h5 className='outlined-text'>Meet the people of ASCO, and hear their story. Strive to the top!</h5>
                 <div className="button-container">
-                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '260px' }}>
+                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '150px' }}>
                     <a href='https://www.youtube.com/playlist?list=PLOm6FLTQtSyJd84_uDBxlwXH9_67b7o_Y' target="_blank" rel="noreferrer" className="btn1">Team ASCO <span><i class="fa fa-users" aria-hidden="true"></i></span></a>
                   </Button>
                 </div>
@@ -90,7 +90,7 @@ const PageContainer = () => {
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center outlined-text text-center'>
                 <h5 className='outlined-text'>ASCO Quick Connects ensure a reliable way to connect generators to infrastructures.</h5>
                 <div className="button-container">
-                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '260px' }}>
+                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '150px' }}>
                     <a href='https://www.youtube.com/watch?v=lbs_BC8cQwo' target="_blank" rel="noreferrer" className="btn1">Learn More <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a>
                   </Button>
                 </div>
@@ -105,7 +105,7 @@ const PageContainer = () => {
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center outlined-text text-center'>
                 <h5 className='outlined-text'>ASCO's Digital Binder provides a various source of information</h5>
                 <div className="button-container">
-                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '260px' }}>
+                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '150px' }}>
                     <a href='https://www.youtube.com/watch?v=3zNO-2RBqKY' target="_blank" rel="noreferrer" className="btn1">Read More <span><i class="fa fa-book" aria-hidden="true"></i></span></a>
                   </Button>
                 </div>
@@ -120,7 +120,7 @@ const PageContainer = () => {
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center outlined-text text-center'>
                 <h5 className='outlined-text'>Data Centers nationwide trust ASCO for unmatched reliability</h5>
                 <div className="button-container">
-                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '260px' }}>
+                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '250px' }}>
                     <a href='https://www.youtube.com/watch?v=3zNO-2RBqKY' target="_blank" rel="noreferrer" className="btn1">Customer Testimonials <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a>
                   </Button>
                 </div>
@@ -134,7 +134,7 @@ const PageContainer = () => {
               <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center outlined-text text-center'>
                 <h5 className='outlined-text'>Residential Healthcare meets our Backup Power Solutions</h5>
                 <div className="button-container">
-                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '200px' }}>
+                  <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '150px' }}>
                     <a href='https://www.youtube.com/watch?v=wdvqnmcBFpo&t=1s' target="_blank" rel="noreferrer" className="btn1">Watch Now <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a>
                   </Button>
                 </div>
@@ -142,19 +142,6 @@ const PageContainer = () => {
 
             </Carousel.Item>
 
-            {/* <Carousel.Item className="carousel">
-              <Image src={process.env.PUBLIC_URL + "/assets/ascohealthcare.jpeg"} className="img-fluid d-flex flex-wrap justify-content-around slide-image" />
-
-              <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center outlined-text text-center'>
-              
-                  <h5 className='  outlined-text'>Residential Healthcare meets our Backup Power Solutions</h5>
-                  <div className="d-flex justify-content-center">
-                    <Button variant="info" size="md" className="carousel-btn  " style={{ maxWidth: '200px' }}><a href='https://www.youtube.com/watch?v=wdvqnmcBFpo&t=1s' target="_blank" rel="noreferrer" className="btn1" >Watch Now <span><i class="fa fa-film" aria-hidden="true"></i></span></a></Button>
-                  </div>
-                
-
-              </Carousel.Caption>
-            </Carousel.Item> */}
 
 
           </Carousel>
