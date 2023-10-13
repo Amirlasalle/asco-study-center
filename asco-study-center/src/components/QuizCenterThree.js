@@ -4,25 +4,32 @@ import Button from 'react-bootstrap/Button';
 import quizcenterthreeData from './quizcenterthree.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
+import { Link } from 'react-router-dom';
+
 
 function QuizCenterThree() {
-  const [timerCounter, setTimerCounter] = useState(60);
+  const [timerCounter, setTimerCounter] = useState(90);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [quizElDisplay, setQuizElDisplay] = useState(true);
-  const [summaryElDisplay, setSummaryElDisplay] = useState(false);
   const [userInput, setUserInput] = useState('');
   const [userScores, setUserScores] = useState([]);
   const [evaluateText, setEvaluateText] = useState('');
   const [quizData] = useState(quizcenterthreeData);
+  const [quizCompleted, setQuizCompleted] = useState(false);
+  const [summaryElDisplay, setSummaryElDisplay] = useState(false);
+
 
   useEffect(() => {
-    const timerObj = setInterval(() => {
-      setTimerCounter((prevCounter) => prevCounter > 0 ? prevCounter - 1 : prevCounter);
-    }, 1000);
+    if (!quizCompleted) {
+      const timerObj = setInterval(() => {
+        setTimerCounter((prevCounter) => (prevCounter > 0 ? prevCounter - 1 : prevCounter));
+      }, 1000);
 
-    return () => clearInterval(timerObj);
-  }, []);
+      return () => clearInterval(timerObj);
+    }
+  }, [quizCompleted]);
+
 
   const checkAnswer = (userAnswer) => {
     const correctAnswer = quizData[currentQuestion].answer;
@@ -41,36 +48,41 @@ function QuizCenterThree() {
     }
   };
 
+
+
   const endQuiz = () => {
     setQuizElDisplay(false);
     setSummaryElDisplay(true);
     const finalScore = timerCounter * score;
     setUserScores((prevScores) => [...prevScores, { user: userInput, finalScore }]);
+    setQuizCompleted(true);
   };
+
 
 
 
   const saveDetails = () => {
     const previousScore = JSON.parse(localStorage.getItem('codequiz')) || [];
-    previousScore.push({
-      user: userInput,
-      finalScore: timerCounter * score,
-    });
+    previousScore.push({ user: userInput, finalScore: timerCounter * score });
     localStorage.setItem('codequiz', JSON.stringify(previousScore));
     setSummaryElDisplay(false);
+    setUserScores(previousScore);
   };
 
+
   const restartQuiz = () => {
-    // Reset all state variables to their initial values
-    setTimerCounter(60);
+    setTimerCounter(90);
     setCurrentQuestion(0);
     setScore(0);
     setQuizElDisplay(true);
-    setSummaryElDisplay(false);
     setUserInput('');
     setEvaluateText('');
-    // Any other state variables that need to be reset should be added here
+    setQuizCompleted(false);
+    setSummaryElDisplay(false);
   };
+
+
+
 
   const displayQuestion = () => {
     const currentQuiz = quizData[currentQuestion];
@@ -102,19 +114,25 @@ function QuizCenterThree() {
         <section id="summary" style={{ display: summaryElDisplay ? "block" : "none" }}>
           <h4>Your Final score (timeleft * score): <span id="score-result">{timerCounter * score}</span></h4>
           <label>Enter Username</label>
-          <input type="text" id="user-name" onChange={(e) => setUserInput(e.target.value)} />
+          <input type="text" id="user-name" value={userInput} onChange={(e) => setUserInput(e.target.value)} />
           <Button className="btn btn-secondary" id="save-userscore" onClick={saveDetails}>Save Score</Button>
+
+
+
+          <section id="displayStorage" className='mt-4'>
+            {userScores.map((userScore, index) => (
+              <div key={index}>
+                <h5>User: {userScore.user} {userScore.finalScore}</h5>
+              </div>
+            ))}
+          </section>
 
         </section>
 
-
-        <section id="displayStorage" className='mt-4'>
-          {userScores.map((userScore, index) => (
-            <div key={index}>
-              <h5>User: {userScore.user} ----- {userScore.finalScore}</h5>
-            </div>
-          ))}
-        </section> <section className='mt-5'><Button className="btn btn-danger" onClick={restartQuiz}>Retake Quiz</Button></section>
+        <section className='mt-5'
+          href="#quizcenterthree"
+        ><Link to="/quizcenterthree" ><Button className="btn btn-danger" onClick={restartQuiz}>Retake Quiz</Button></Link>
+        </section>
       </div>
     </Container>
   );
