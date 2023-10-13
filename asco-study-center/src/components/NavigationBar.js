@@ -54,9 +54,8 @@ const NavigationBar = ({ handlePageChange }) => {
             <Navbar className="fixed-top custom-links bg-body-tertiary" bg="light" expand="lg" ref={navbarRef} expanded={isNavbarOpen}>
                 <Container fluid text-center>
                     <Navbar.Brand className='navbarBrand'>
-                        <Nav.Link
-                            href="#home"
-                        ><Link to="/" onClick={() => handleNavLinkClick('/')}className='custom-link'> <Image className='asco-logo' src={process.env.PUBLIC_URL + '/assets/asco-power-logo.png'} fluid />
+                        <Nav.Link>
+                            <Link to="/" onClick={() => handleNavLinkClick('/')}className='custom-link'> <Image className='asco-logo' src={process.env.PUBLIC_URL + '/assets/asco-power-logo.png'} fluid />
                             </Link>
 
                         </Nav.Link>
@@ -64,47 +63,42 @@ const NavigationBar = ({ handlePageChange }) => {
                     <Navbar.Toggle aria-controls="navbarScroll" className='toggle' onClick={toggleNavbar} />
                     <Navbar.Collapse id="navbarScroll" className={`navbar-scroll ${isNavbarOpen ? 'show' : ''}`}>
                         <Nav className="ml-auto mr-auto my-8 my-lg-4 outline-success navtext" navbarScroll>
-                            <Nav.Link
-                                href="#/asco-study-center/aboutasco"
-                            >
+                            <Nav.Link>
                                 <Link to="/aboutasco" onClick={() => handleNavLinkClick('/aboutasco')} className='custom-link'>
                                     About Asco
                                 </Link>
                             </Nav.Link>
 
 
-                            <Nav.Link
-                                href="#/asco-study-center/products"><Link to="/products" onClick={() => handleNavLinkClick('/products')} className='custom-link'>
+                            <Nav.Link>
+                                <Link to="/products" onClick={() => handleNavLinkClick('/products')} className='custom-link'>
                                     Our Products
                                 </Link>
                             </Nav.Link>
 
-                            <Nav.Link
-                                href="#/asco-study-center/studycenter"><Link to="/studycenter" onClick={() => handleNavLinkClick('/studycenter')}className='custom-link'>
+                            <Nav.Link>
+                                <Link to="/studycenter" onClick={() => handleNavLinkClick('/studycenter')}className='custom-link'>
                                     Study Center
                                 </Link>
 
                             </Nav.Link>
 
                             <NavDropdown title="Quizes" id="navDropdown" className='navbar-static  custom-links text'>
-                                <NavDropdown.Item
-                                    href="#/asco-study-center/quizcenterone"
-                                ><Link to="/quizcenterone" onClick={() => handleNavLinkClick('/quizcenterone')} style={{ textDecoration: 'none' }} className=' custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                                <NavDropdown.Item>
+                                    <Link to="/quizcenterone" onClick={() => handleNavLinkClick('/quizcenterone')} style={{ textDecoration: 'none' }} className=' custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                     Difficulty<br /> Level
                                 </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i></Link>
 
                                 </NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item
-                                    href="#/asco-study-center/quizcentertwo"
-                                ><Link to="/quizcentertwo" onClick={() => handleNavLinkClick('/quizcentertwo')} className='custom-links'> <h >Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}> Difficulty<br /> Level
+                                <NavDropdown.Item>
+                                    <Link to="/quizcentertwo" onClick={() => handleNavLinkClick('/quizcentertwo')} className='custom-links'> <h >Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}> Difficulty<br /> Level
                                 </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></h></Link>
 
                                 </NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item
-                                    href="#/asco-study-center/quizcenterthree"
-                                ><Link to="/quizcenterthree" onClick={() => handleNavLinkClick('/quizcenterthree')}className='custom-links'>Quiz 3<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                                <NavDropdown.Item>
+                                    <Link to="/quizcenterthree" onClick={() => handleNavLinkClick('/quizcenterthree')}className='custom-links'>Quiz 3<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                     Difficulty<br /> Level
                                 </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></Link>
 
