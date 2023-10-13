@@ -27,8 +27,8 @@ body {
 }
 
 .button-container {
-  text-align: center; /* Adjust this as needed */
-  margin-top: 10rem; /* Adjust the margin as needed for spacing */
+  text-align: center; 
+  margin-top: 10rem; 
 }
 
 
@@ -44,7 +44,7 @@ body {
   top: 0;
 }
 .mar{
-  margin-bottom: 83.45px;
+  margin-bottom: 42px;
 }
 .navbar-collapse {
   margin: 0;
@@ -585,7 +585,7 @@ button {
   }
   @media screen and (min-width: 992px) {
     .mar{
-      margin-bottom: 104.5px;
+      margin-bottom: 52.5px;
     }
   }
 

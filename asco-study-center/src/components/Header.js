@@ -1,10 +1,13 @@
 import NavigationBar from "./NavigationBar";
 import Container from 'react-bootstrap/Container';
 import AboutAsco from "./AboutAsco";
-import Contact from "./QuizCenterOne";
 import React, { useState } from "react";
 import Products from "./Products";
 import StudyCenter from "./StudyCenter";
+import QuizCenterOne from "./QuizCenterOne";
+import QuizCenterTwo from "./QuizCenterTwo";
+import QuizCenterThree from "./QuizCenterThree";
+
 
 const Header = () => {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -13,8 +16,14 @@ const Header = () => {
     if (currentPage === 'aboutasco') {
       return <AboutAsco />;
     }
-    if (currentPage === 'contact') {
-      return <Contact />;
+    if (currentPage === 'quizcenterone') {
+      return <QuizCenterOne />;
+    }
+    if (currentPage === 'quizcentertwo') {
+      return <QuizCenterTwo />;
+    }
+    if (currentPage === 'quizcenterthree') {
+      return <QuizCenterThree />;
     }
     if (currentPage === 'products') {
       return <Products />;
