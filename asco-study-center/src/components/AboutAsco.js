@@ -70,46 +70,87 @@ const AboutAsco = () => {
 
         </Row>
 
-        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1" >
-      <Row className='mt-4'>
-        <Col sm={4}>
-          <ListGroup >
-            <ListGroup.Item variant='success' action href="#link1">
-            ATS Basics
-            </ListGroup.Item>
-            <ListGroup.Item variant='success' action href="#link2">
-            Market Segments
-            </ListGroup.Item>
-          </ListGroup>
-        </Col>
-        <Col sm={8}>
-          <Tab.Content>
-            <Tab.Pane eventKey="#link1">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/RqFZ7Xeumuo?si=L9utuwueByryT-0T"
-                title="YouTube video 1"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </Tab.Pane>
-            <Tab.Pane eventKey="#link2">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/0LAsZU44VXc?si=VI9_w0WcUjV9ebsL"
-                title="YouTube video 2"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </Tab.Pane>
-          </Tab.Content>
-        </Col>
-      </Row>
-    </Tab.Container>
+        <Tab.Container id="list-group-tabs" defaultActiveKey="#link1">
+  <Row className="mt-4 justify-content-center">
+    <Col sm={12} md={4}>
+      <ListGroup>
+        <ListGroup.Item action href="#link1">
+          Link 1
+        </ListGroup.Item>
+        <ListGroup.Item action href="#link2">
+          Link 2
+        </ListGroup.Item>
+      </ListGroup>
+    </Col>
+    <Col sm={12} md={8}>
+      <Tab.Content>
+        <Tab.Pane eventKey="#link1">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/RqFZ7Xeumuo?si=L9utuwueByryT-0T"
+            title="YouTube video 1"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </Tab.Pane>
+        <Tab.Pane eventKey="#link2">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/0LAsZU44VXc?si=VI9_w0WcUjV9ebsL"
+            title="YouTube video 2"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </Tab.Pane>
+      </Tab.Content>
+    </Col>
+  </Row>
+</Tab.Container>
+
+        {/* <Tab.Container id="list-group-tabs" defaultActiveKey="#link1" >
+          <Row className='mt-4 ml-2 mr-2 justify-content-center d-flex'>
+            <Col sm={4}>
+              <ListGroup>
+                <ListGroup.Item action href="#link1">
+                  Link 1
+                </ListGroup.Item>
+                <ListGroup.Item action href="#link2">
+                  Link 2
+                </ListGroup.Item>
+              </ListGroup>
+            </Col>
+            <Col sm={8}>
+              <Tab.Content>
+                <Tab.Pane eventKey="#link1">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/RqFZ7Xeumuo?si=L9utuwueByryT-0T"
+                    title="YouTube video 1"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link2">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/0LAsZU44VXc?si=VI9_w0WcUjV9ebsL"
+                    title="YouTube video 2"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </Tab.Pane>
+              </Tab.Content>
+            </Col>
+          </Row>
+        </Tab.Container> */}
 
 
         <div>
