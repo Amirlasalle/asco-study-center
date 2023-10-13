@@ -26,19 +26,19 @@ function App() {
         <Routes>
           <Route path="/asco-study-center" element={<PageContainer />}
           />
-          <Route path="/aboutasco" element={<AboutAsco />}
+          <Route path="/asco-study-center/aboutasco" element={<AboutAsco />}
           />
-          <Route path="/products" element={<Products />}
+          <Route path="/asco-study-center/products" element={<Products />}
           />
-          <Route path="/studycenter" element={<StudyCenter />}
+          <Route path="/asco-study-center/studycenter" element={<StudyCenter />}
           />
-          <Route path="/quizcenterone" element={<QuizCenterOne />}
+          <Route path="/asco-study-center/quizcenterone" element={<QuizCenterOne />}
           />
-           <Route path="/quizcentertwo" element={<QuizCenterTwo />}
+           <Route path="/asco-study-center/quizcentertwo" element={<QuizCenterTwo />}
           />
-           <Route path="/quizcenterthree" element={<QuizCenterThree />}
+           <Route path="/asco-study-center/quizcenterthree" element={<QuizCenterThree />}
           />
-          <Route path="/contact" element={<Contact />}
+          <Route path="/asco-study-center/contact" element={<Contact />}
           />
         </Routes>
       </div>

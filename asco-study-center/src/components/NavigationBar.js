@@ -58,22 +58,22 @@ const NavigationBar = ({ handlePageChange }) => {
                     <Navbar.Collapse id="navbarScroll" className={`navbar-scroll ${isNavbarOpen ? 'show' : ''}`}>
                         <Nav className="ml-auto mr-auto my-8 my-lg-4 outline-success navtext" navbarScroll>
                             <Nav.Link
-                                href="#aboutasco"
+                                href="#/asco-study-center/aboutasco"
                             >
-                                <Link to="/aboutasco" onClick={() => scrollToTop('/aboutasco')}className='custom-link'>
+                                <Link to="/asco-study-center/aboutasco" onClick={() => scrollToTop('/asco-study-center/aboutasco')}className='custom-link'>
                                     About Asco
                                 </Link>
                             </Nav.Link>
 
 
                             <Nav.Link
-                                href="#products"><Link to="/products" onClick={() => scrollToTop('/products')} className='custom-link'>
+                                href="#/asco-study-center/products"><Link to="/asco-study-center/products" onClick={() => scrollToTop('/asco-study-center/products')} className='custom-link'>
                                     Our Products
                                 </Link>
                             </Nav.Link>
 
                             <Nav.Link
-                                href="#studycenter"><Link to="/studycenter" onClick={() => scrollToTop('/studycenter')} className='custom-link'>
+                                href="#/asco-study-center/studycenter"><Link to="/asco-study-center/studycenter" onClick={() => scrollToTop('/studycenter')} className='custom-link'>
                                     Study Center
                                 </Link>
 
@@ -81,23 +81,23 @@ const NavigationBar = ({ handlePageChange }) => {
 
                             <NavDropdown title="Quizes" id="navDropdown" className='navbar-static  custom-links text'>
                                 <NavDropdown.Item
-                                    href="#quizcenterone"
-                                ><Link to="/quizcenterone" onClick={() => scrollToTop('/quizcenterone')} className=' custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                                    href="#/asco-study-center/quizcenterone"
+                                ><Link to="/asco-study-center/quizcenterone" onClick={() => scrollToTop('/asco-study-center/quizcenterone')} className=' custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                     Difficulty<br /> Level
                                 </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i></Link>
 
                                 </NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item
-                                    href="#quizcentertwo"
-                                ><Link to="/quizcentertwo" onClick={() => scrollToTop('/quizcentertwo')} className='custom-links'> <h >Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}> Difficulty<br /> Level
+                                    href="#/asco-study-center/quizcentertwo"
+                                ><Link to="/asco-study-center/quizcentertwo" onClick={() => scrollToTop('/asco-study-center/quizcentertwo')} className='custom-links'> <h >Quiz 2<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}> Difficulty<br /> Level
                                 </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></h></Link>
 
                                 </NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item
-                                    href="#quizcenterthree"
-                                ><Link to="/quizcenterthree" onClick={() => scrollToTop('/quizcenterthree')} className='custom-links'>Quiz 3<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
+                                    href="#/asco-study-center/quizcenterthree"
+                                ><Link to="/asco-study-center/quizcenterthree" onClick={() => scrollToTop('/asco-study-center/quizcenterthree')} className='custom-links'>Quiz 3<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                     Difficulty<br /> Level
                                 </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></Link>
 

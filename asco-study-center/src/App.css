@@ -349,14 +349,14 @@ left: 0 !important;
 }
 
 .about-slide-image {
-  width: 100%;
-  height: 10vh;
+  width: 100vw;
+  height: 50vh;
   object-fit: cover;
   filter: brightness(40%);
 }
 .about-slide-image-home {
-  width: 100%;
-  height: 10vh;
+  width: 100vw;
+  height: 50vh;
   object-fit: cover;
   filter: brightness(30%);
 }
