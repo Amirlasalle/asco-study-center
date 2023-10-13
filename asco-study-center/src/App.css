@@ -485,7 +485,6 @@ button {
   background-color: transparent;
   width: 96%;
   height: 40vh;
-  border: 1px solid black;
   perspective: 100px;
   margin: 0 auto;
   float: none;
@@ -499,6 +498,7 @@ button {
   perspective: 1000px;
   justify-content: center;
   align-items: center;
+  border-radius: 20px !important;
 }
 
 
@@ -509,7 +509,8 @@ button {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5) !important;
+  border-radius: 20px !important;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -527,23 +528,29 @@ button {
   justify-content: center;
   align-content: center;
   text-overflow: ellipsis;
+  border-radius: 20px;
 }
 
 .flip-card-front {
   background-color: rgb(232, 232, 232);
-  color: black;
+  color: #3dcd58;
   overflow: hidden;
-  text-overflow: ellipsis;
-  text-size-adjust: inherit;
+  text-overflow: ellipsis;/* remember to use this for slide image text in carousel if I run into any problem*/
+  text-size-adjust: inherit;/* remember to use this for slide image text in carousel if I run into any problem*/
+  white-space: wrap;
   word-wrap: break-word;
-  display: block;
-  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
 .flip-card-back {
-  background-color: rgb(79, 182, 118) !important;
+  background-color: #3dcd58 !important;
   color: white !important;
   transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardsButton {
@@ -551,6 +558,7 @@ button {
   align-items: center;
   align-content: center;
   text-align: center;
+  color: #3dcd58 !important;
 }
 
 @media screen and (min-width: 1500px) {
