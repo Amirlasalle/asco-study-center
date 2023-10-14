@@ -2,7 +2,7 @@
   "name": "asco-study-center",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amirlasalle.github.io/asco-study-center",
+  "homepage": "https://amirlasalle.github.io/asco-study-center/#",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",

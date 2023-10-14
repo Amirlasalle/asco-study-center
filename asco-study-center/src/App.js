@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import PageContainer from './pages/PageContainer';
 import "react-bootstrap/dist/react-bootstrap.min.js";
@@ -17,7 +17,7 @@ import QuizCenterThree from "../src/components/QuizCenterThree";
 
 function App() {
   return (
-    <Router basename="/asco-study-center">
+    <HashRouter >
       <NavigationBar />
       <div id='root' className="flex-column justify-flex-start min-100-vh">
         <Header />
@@ -41,7 +41,7 @@ function App() {
       </div>
       <Footer />
 
-    </Router>
+    </HashRouter>
   );
 }
 

@@ -35,10 +35,10 @@ const AboutAsco = () => {
               prevIcon={<FontAwesomeIcon icon={faChevronLeft} />} className='about'>
 
               <Carousel.Item className="carousel">
-                <Image src={process.env.PUBLIC_URL + "/assets/short/nycshort.jpeg"} className="img-fluid d-flex flex-wrap justify-content-center slide-image" />
+                <Image src={process.env.PUBLIC_URL + "/assets/short/tokyo-bannershort.jpeg"} className="img-fluid d-flex flex-wrap justify-content-center slide-image" />
 
                 <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center outlined-text text-center'>
-                  <h5 className='outlined-text'>ASCO Power Technologies ensures uninterrupted operational performance</h5>
+                  <h5 className='outlined-text'>ASCO Power Technologies drives operational continuity</h5>
                   {/* <Carousel slide={false} className='about'>
             <Carousel.Item className='carousel'>
             <Image src={process.env.PUBLIC_URL + "/assets/tokyostreetbright.jpg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image about" />
@@ -50,10 +50,10 @@ const AboutAsco = () => {
               </Carousel.Item>
 
               <Carousel.Item className="carousel">
-                <Image src={process.env.PUBLIC_URL + "/assets/short/nycshort.jpeg"} className="img-fluid d-flex flex-wrap justify-content-center slide-image" />
+                <Image src={process.env.PUBLIC_URL + "/assets/short/nasashort.jpeg"} className="img-fluid d-flex flex-wrap justify-content-center slide-image" />
 
                 <Carousel.Caption className='mt-0 mb-auto d-flex flex-column justify-content-center outlined-text text-center'>
-                  <h5 className='outlined-text'>ASCO Power Technologies ensures uninterrupted operational performance</h5>
+                  <h5 className='outlined-text'>Enrich your backup power knowledge</h5>
                   {/* <Carousel.Item className='carousel'>
               <Image src={process.env.PUBLIC_URL + "/assets/nasa.jpg"} className="img-fluid d-flex flex-wrap justify-content-around about-slide-image" />
               <Carousel.Caption className='position-relativeslide-title about-outlined-cap'>
@@ -171,7 +171,7 @@ const AboutAsco = () => {
             <div id="ascotimeline" className="d-flex flex-wrap justify-content-around ">
               {ascotimeline.map((project, key) =>
 
-                <Card key={key} className="m-2 p-2 shadow-lg timeline-card" style={{ width: '18rem', height: 'auto' }}>
+                <Card key={key} className="m-2 p-2 shadow-lg timeline-card" style={{ width: '18rem' }}>
                   <Card.Body>
                     <Card.Title className='year-size ' >{project.year}</Card.Title>
                     <Card.Text className='brief'>{project.brief}

@@ -83,7 +83,7 @@ const NavigationBar = ({ handlePageChange }) => {
 
                             </Nav.Link>
 
-                            <NavDropdown title="Quizes" id="navDropdown" className='navbar-static  custom-links text'>
+                            <NavDropdown title="Quizzes" id="navDropdown" className='navbar-static  custom-links text'>
                                 <NavDropdown.Item>
                                     <Link to="/quizcenterone" onClick={() => handleNavLinkClick('/quizcenterone')} style={{ textDecoration: 'none' }} className=' custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                     Difficulty<br /> Level

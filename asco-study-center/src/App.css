@@ -381,13 +381,16 @@ left: 0 !important;
 }
 
 .year-size {
-  font-size: 3vw !important;
+  font-size: 1.5rem !important;
 }
 .brief {
-  font-size: 2vw;
+  font-size: 1rem;
 }
 .title{
-  font-size: 3vw;
+  font-size: 1.5vw;
+}
+.text-white{
+  font-size: 1rem;
 }
 
 
