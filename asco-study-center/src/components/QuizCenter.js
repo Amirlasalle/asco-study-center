@@ -78,7 +78,7 @@ const Quizzes = ({handlePageChange}) => {
 
                     <div className="mb-2">
                         <h5 className="ml-3 smaller font-weight-normal">
-                            Note: All quizzes will start once are directed to the page.
+                            Note: All quizzes will start once directed to the page.
                         </h5>
 
                     </div>
@@ -89,7 +89,7 @@ const Quizzes = ({handlePageChange}) => {
                         </h2>
                         {quizzes.map((quizzes, key) =>
 
-                            <Card key={key} variant="secondary" className="m-2 p-2 " style={{ width: '18rem', borderColor: "#fff", backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}>
+                            <Card key={key} variant="secondary" className="m-2 p-2 quiz-cards" style={{ width: '18rem', backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}>
                                 <Card.Body>
                                     <Card.Title className="text-light title">{quizzes.title}</Card.Title> <Card.Text className="text-white">Difficulty Level:  {quizzes.difficultyLevel}
                                     </Card.Text>
@@ -106,7 +106,8 @@ const Quizzes = ({handlePageChange}) => {
 
                 <Row className='mt-4'>
                     <div className="mt-1 mb-4 pb-2 text-left quiz-welcome">
-                        <h3 className="mt-2 ml-2 text-center">Are you ready to turn it up a notch?</h3><br></br> <p className="" >Below, you'll find a series of 15-question exams that will assess your ASCO knowledge, ranging from easy to challenging. Are you ready to demonstrate your expertise and climb the ranks?</p><br></br><p>Be sure to review ASCO's Digital Binder</p>
+                        <h3 className="mt-2 ml-2 text-center">Are you ready to turn it up a notch?</h3><br></br> <p className="text-left m-4 quiz-intruction" >Below, you'll find a series of 20-question  exams(exams may contain bonus questions) that will assess your ASCO knowledge, ranging from easy to challenging.<br></br><p>Here are the quick layout of the exams</p><li>10 multiple choice questions</li><li>10 True or False</li><li>You will be given 20 minutes to complete an exam.
+                        </li><li>Time will be displayed in seconds</li><li>Remember timer starts as soon as exam is open.</li><br></br></p><p className="text-center font-weight-bolder">Are you ready to demonstrate your expertise and climb the ranks?</p><br></br><p className="text-center">Good Luck!</p><br></br><p>Be sure to review ASCO's Digital Binder</p>
                         <div className="d-flex justify-content-center">
                            
                                 <Button variant="info" size="md" className="carousel-btn   mx-auto m-2 " style={{ maxWidth: '200px' }}><a href='https://asco-power.cld.bz/ASCO-Power-Technologies-Products-Digital-Binder' target="_blank" rel="noreferrer" className="btn1" >Digital Binder <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button>
@@ -120,7 +121,7 @@ const Quizzes = ({handlePageChange}) => {
                         </h2>
                         {exams.map((exams, key) =>
 
-                            <Card key={key} variant="secondary" className="m-2 p-2 " style={{ width: '18rem', borderColor: "#fff", backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}>
+                            <Card key={key} variant="secondary" className="m-2 p-2 quiz-cards" style={{ width: '18rem', backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}>
                                 <Card.Body>
                                     <Card.Title className="text-light title">{exams.title}</Card.Title> <Card.Text className="text-white">Difficulty Level:  {exams.difficultyLevel}
                                     </Card.Text>

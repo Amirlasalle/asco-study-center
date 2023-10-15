@@ -303,6 +303,7 @@ left: 0 !important;
   text-align: center;
   color: white;
   font-size: 2rem !important;
+  font-weight: bolder !important;
 }
 
 .banner-text {
@@ -406,10 +407,17 @@ left: 0 !important;
   color: #000;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1rem !important;
-  font-weight: lighter !important;
   text-align: center !important;
-  background-color: #e3e3e3;
-
+  font-weight: bolder !important;
+  background-color: #ffffff;
+}
+.quiz-intruction{
+  font-weight: lighter !important;
+}
+.quiz-cards:hover{
+  transform: translateY(-10px) scale(1.009) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px;
 }
 
 .timeline-title {
@@ -640,6 +648,7 @@ button {
       color: white;
       padding: 10px;
       font-size: 3rem !important;
+      font-weight: bolder !important;
     }
   }
   @media screen and (min-width: 992px) {
@@ -676,6 +685,7 @@ button {
   color: white;
   padding: 10px;
   font-size: 1.5rem !important;
+  font-weight: bolder !important;
 }
 .banner-text {
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -718,6 +728,7 @@ button {
       color: white;
       padding: 10px;
       font-size: .8rem !important;
+      font-weight: bolder !important;
     }
     .banner-text {
       font-family: 'M PLUS Rounded 1c', sans-serif;
