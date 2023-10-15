@@ -6,6 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import { Link } from 'react-router-dom';
 
+// data to be used for quizzes.json
+//     {
+//         "title": "Quiz 5",
+//         "difficultyLevel": "\u2605\u2605\u2605\u2605\u2605",
+//         "duration": "5",
+//         "description": "An extremely challenging quiz for ASCO ATS accessory experts.",
+//         "pageUrlButton": "#/quizfive",
+//         "quizNumber": "Start Quiz 5"
+//     }
 
 function QuizCenterFive() {
   const [timerCounter, setTimerCounter] = useState(300);

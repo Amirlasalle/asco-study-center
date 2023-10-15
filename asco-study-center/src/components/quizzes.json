@@ -30,13 +30,5 @@
         "description": "A high-level quiz intended for experts and those with advanced knowledge, ideal for testing your mastery of the subject.",
         "pageUrlButton": "#/quizfour",
         "quizNumber": "Start Quiz 4"
-    },
-    {
-        "title": "Quiz 5",
-        "difficultyLevel": "\u2605\u2605\u2605\u2605\u2605",
-        "duration": "5",
-        "description": "An extremely challenging quiz for ASCO ATS accessory experts.",
-        "pageUrlButton": "#/quizfive",
-        "quizNumber": "Start Quiz 5"
     }
 ]
