@@ -14,6 +14,7 @@ import QuizOne from "./components/QuizOne";
 import QuizTwo from "./components/QuizTwo";
 import QuizThree from "../src/components/QuizThree";
 import QuizFour from "../src/components/QuizFour";
+import QuizFive from "../src/components/QuizFive";
 import ExamOne from "../src/components/ExamOne";
 import ExamTwo from "../src/components/ExamTwo";
 import ExamThree from "../src/components/ExamThree";
@@ -45,6 +46,8 @@ function App() {
           <Route path="/quizthree" element={<QuizThree />}
           />
          <Route path="/quizfour" element={<QuizFour />}
+          />
+            <Route path="/quizfive" element={<QuizFive />}
           />
           <Route path="/examone" element={<ExamOne />}
           />

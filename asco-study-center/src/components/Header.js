@@ -9,6 +9,7 @@ import QuizCenterOne from "./QuizOne";
 import QuizCenterTwo from "./QuizTwo";
 import QuizCenterThree from "./QuizThree";
 import QuizCenterFour from "./QuizFour";
+import QuizCenterFive from "./QuizFive";
 import ExamOne from "./ExamOne";
 import ExamTwo from "./ExamTwo";
 import ExamThree from "./ExamThree";
@@ -36,6 +37,9 @@ const Header = () => {
     }
     if (currentPage === 'quizcenterfour') {
       return <QuizCenterFour />;
+    }
+    if (currentPage === 'quizcenterfive') {
+      return <QuizCenterFive />;
     }
     if (currentPage === 'examone') {
       return <ExamOne />;

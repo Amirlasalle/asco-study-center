@@ -1,0 +1,59 @@
+[
+
+    {
+        "question":"What true about a NEMA 4X enclosure for an ATS?",
+        "choiceA":"Provides protection against dust and dirt",
+        "choiceB":"Acts as a safeguard against rain, sleet, and snow",
+        "choiceC":"Corrosion resistant",
+        "choiceD":"All of the above",
+        "answer":"All of the above"
+    },
+    {
+        "question":"What is the primary function of a NEMA 12 enclosure in an ATS system?",
+        "choiceA":"To provide protection against rain and snow",
+        "choiceB":"To ensure compatibility with all load types",
+        "choiceC":"To protect against dust and dirt",
+        "choiceD":"To regulate power frequency",
+        "answer":"To protect against dust and dirt"
+    },
+    {
+        "question":"Which accessory Indicates that all additional signal lights are push to test type?",
+        "choiceA":"135L",
+        "choiceB":"31Z",
+        "choiceC":"72EE2",
+        "choiceD":"Accessory 99",
+        "answer":"Accessory 99"
+    },
+    {
+        "question":"Which ASCO accessory is a Mode selector switch to provide integrated control between engine starting and transfer switch operation. Three selections - Test (with load transfer), Auto and Start (start engine without load transfer)?",
+        "choiceA":"135L",
+        "choiceB":"31BG",
+        "choiceC":"12BS",
+        "choiceD":"11BE",
+        "answer":"12BS"
+    },
+    {
+        "question":"Which ASCO accessory is a Digital Power Meter monitoring the load source for measurement of voltage, frequency, and current. Calculation of Power, Energy, and Power Factor?",
+        "choiceA":"135L",
+        "choiceB":"1G",
+        "choiceC":"7ES",
+        "choiceD":"72EE2",
+        "answer":"135L"
+    },
+    {
+        "question":"Which ASCO accessory uses a manual selection between two utilities as to which utility will be designated as the preferred source. Note: feature 5 is removed and feature 6B becomes pushbutton?",
+        "choiceA":"31Z",
+        "choiceB":"5LL",
+        "choiceC":"6DL",
+        "choiceD":"29A",
+        "answer":"29A"
+    },
+    {
+        "question":"According to the National Electrical Code (NEC), what specific requirement should an ASCO ATS typically meet for safe and code-compliant installation in a healthcare facility?",
+        "choiceA":"It should be Service Entrance Rated (SE-rated) for seamless utility power transfer.",
+        "choiceB":"It should have an illuminated front panel for easy visibility.",
+        "choiceC":"It should have a built-in load bank for testing and maintenance.",
+        "choiceD":"It should be painted red to signify its use in healthcare settings.",
+        "answer":"It should be Service Entrance Rated (SE-rated) for seamless utility power transfer."
+    }
+]

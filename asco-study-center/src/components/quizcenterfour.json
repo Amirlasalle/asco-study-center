@@ -1,59 +1,59 @@
 [
 
     {
-        "question":"ATS accessories such as load shedding modules are used for:",
-        "choiceA":"Increasing the load on the generator",
-        "choiceB":"Shedding unnecessary loads during a power outage",
-        "choiceC":"Enhancing the voltage regulation of the ATS",
-        "choiceD":"Measuring the power factor of connected devices",
-        "answer":"Shedding unnecessary loads during a power outage"
+        "question":"In the context of ATSs, what is the significance of a 'break before make' switch?",
+        "choiceA":" It ensures a seamless transfer of power during outages.",
+        "choiceB":"It momentarily disconnects the load from one source before connecting to the other.",
+        "choiceC":"It reduces power surges during the transfer process.",
+        "choiceD":"It enables parallel operation of multiple generators.",
+        "answer":"It momentarily disconnects the load from one source before connecting to the other."
     },
     {
-        "question":"Which ATS accessory is used to provide additional protection to the generator during extended power outages and prevents it from overheating or overloading?",
-        "choiceA":"Load shedding module",
+        "question":"Which ATS accessory is critical for monitoring power quality and ensuring proper voltage and frequency levels?",
+        "choiceA":"Synchronizer",
         "choiceB":"Surge protector",
-        "choiceC":"Overcurrent protection device",
-        "choiceD":"Coolant circulator",
-        "answer":"Load shedding module"
-    },
-    {
-        "question":"The exercise function on an ATS controller is used for:",
-        "choiceA":"Starting the backup generator",
-        "choiceB":"Automatically testing the ATS and connected loads",
-        "choiceC":"Simulating a power outage",
-        "choiceD":"Regulating the voltage",
-        "answer":"Starting the backup generator"
-    },
-    {
-        "question":"Which ATS accessory is designed to protect sensitive electronic equipment from power surges and voltage spikes?",
-        "choiceA":"Surge protector",
-        "choiceB":"Load bank",
-        "choiceC":"Circuit breaker",
-        "choiceD":"Closed-transition ATS is more energy-efficient",
+        "choiceC":"Phase monitor",
+        "choiceD":"Load bank",
         "answer":"Surge protector"
     },
     {
-        "question":"What is the primary function of a bypass isolation switch in an ATS system?",
-        "choiceA":"To disconnect the generator during a power outage",
-        "choiceB":"To bypass the ATS for maintenance purposes",
-        "choiceC":"To synchronize the generator with the utility power",
-        "choiceD":"To increase the load capacity of the ATS",
-        "answer":"To bypass the ATS for maintenance purposes"
+        "question":"In a high-availability data center, what redundancy level is typically achieved by implementing a dual ATS configuration?",
+        "choiceA":"N+1",
+        "choiceB":"N",
+        "choiceC":"2N",
+        "choiceD":"N+2",
+        "answer":"2N"
     },
     {
-        "question":"If the neutral of the two transformers are separately grounded, how many poles should the ATS have?",
-        "choiceA":"4-pole",
-        "choiceB":"2-pole",
-        "choiceC":"3-pole",
-        "choiceD":"It doesn't matter",
-        "answer":"4-pole"
+        "question":"Which type of transfer switch is known for its ability to seamlessly switch between power sources without any interruption to the load?",
+        "choiceA":"Static Transfer Switch (STS)",
+        "choiceB":"Open Transition ATS",
+        "choiceC":"elayed Transition ATS",
+        "choiceD":"Soft Load Transfer ATS",
+        "answer":"Static Transfer Switch (STS)"
     },
     {
-        "question":"If the neutral of the two transformers are tied together and the tied to ground at a single point, you can use:",
-        "choiceA":"A 4-pole switch",
-        "choiceB":"A 2-pole switch",
-        "choiceC":"A 3-pole switch",
-        "choiceD":"Both a 3-pole switch, and a 4-pole switch",
-        "answer":"Both a 3-pole switch, and a 4-pole switch"
+        "question":"In the context of ATS systems, what is the primary function of a NEMA enclosure?",
+        "choiceA":"To control the load distribution",
+        "choiceB":"To provide protection against environmental factors",
+        "choiceC":"To regulate power frequency",
+        "choiceD":"To monitor power quality",
+        "answer":"To provide protection against environmental factors"
+    },
+    {
+        "question":"In the context of Service Entrance Rated (SE-rated) ATS, what does the 'Service Entrance' designation primarily signify?",
+        "choiceA":"It indicates the maximum load capacity of the ATS.",
+        "choiceB":"It means the ATS can serve as the main entry point for utility power.",
+        "choiceC":"It designates the color coding for electrical connections.",
+        "choiceD":"It denotes the specific shape of the ATS.",
+        "answer":"It means the ATS can serve as the main entry point for utility power."
+    },
+    {
+        "question":"Which NEMA enclosure type is designed for indoor ATS installations and primarily provides protection against dust and light dirt?",
+        "choiceA":"NEMA 1",
+        "choiceB":"NEMA 3R",
+        "choiceC":"NEMA 4",
+        "choiceD":"NEMA 4X",
+        "answer":"NEMA 1"
     }
 ]

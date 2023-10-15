@@ -212,6 +212,16 @@ left: 0 !important;
   text-align: start;
   position: relative;
 }
+.section-divider {
+  font-size: 2.3rem;
+  letter-spacing: 3px;
+  background-color: #e4e4e4;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 8px;
+  text-align: start;
+  position: relative;
+}
 .about{
   width: 100vw !important;
 }

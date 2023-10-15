@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import quizcenterfourData from './quizcenterfour.json';
+import quizcenterfiveData from './quizcenterfive.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import { Link } from 'react-router-dom';
 
 
-function QuizCenterFour() {
-  const [timerCounter, setTimerCounter] = useState(180);
+function QuizCenterFive() {
+  const [timerCounter, setTimerCounter] = useState(300);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [quizElDisplay, setQuizElDisplay] = useState(true);
   const [userInput, setUserInput] = useState('');
   const [userScores, setUserScores] = useState([]);
   const [evaluateText, setEvaluateText] = useState('');
-  const [quizData] = useState(quizcenterfourData);
+  const [quizData] = useState(quizcenterfiveData);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [summaryElDisplay, setSummaryElDisplay] = useState(false);
 
@@ -130,12 +130,12 @@ function QuizCenterFour() {
         </section>
 
         <section className='mt-5'
-          href="#quizcenterfour"
-        ><Link to="/quizcenterfour" ><Button className="btn btn-danger" onClick={restartQuiz}>Retake Quiz</Button></Link>
+          href="#quizcenterfive"
+        ><Link to="/quizcenterfive" ><Button className="btn btn-danger" onClick={restartQuiz}>Retake Quiz</Button></Link>
         </section>
       </div>
     </Container>
   );
 }
 
-export default QuizCenterFour;
+export default QuizCenterFive;

@@ -17,7 +17,7 @@ import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 
 
-const Quizzes = ({handlePageChange}) => {
+const Quizzes = ({ handlePageChange }) => {
     const nextIconStyle = {
         fontSize: '10vw',
         fontWeight: 'bolder',
@@ -66,7 +66,7 @@ const Quizzes = ({handlePageChange}) => {
                 {/* Take the next steps to challenging what you've Learned so far. below you'll find and Abundance of test and quizzes to help you see where you're at. so are you ready to show off your ASCO knowledge */}
                 <Row className='mt-4'>
                     <div className="mt-1 mb-4 pb-2 text-left quiz-welcome">
-                        <h3 className="mt-2 ml-1 text-center">Welcome to the Quiz Center! Explore & test your knowledge!</h3><br></br> <p className="" > Get ready to take the next steps in challenging what you've learned so far. Below, you'll discover a wealth of tests and quizzes to evaluate your ASCO knowledge. Are you prepared to showcase your expertise?</p><br></br><p>Looking for some extra time to review? Explore the Study Center.</p>
+                        <h3 className="mt-2 m-2 text-center">Welcome to the Quiz Center! Explore & test your knowledge!</h3><br></br> <p className="m-4" > Get ready to take the next steps in challenging what you've learned so far. Below, you'll discover a wealth of tests and quizzes to evaluate your ASCO knowledge. Are you prepared to showcase your expertise?</p><br></br><p>Looking for some extra time to review? Explore the Study Center.</p>
 
                         <div className="d-flex justify-content-center">
                             <Link to="/studycenter" onClick={() => handleNavLinkClick('/studycenter')} className='custom-link'>
@@ -75,7 +75,8 @@ const Quizzes = ({handlePageChange}) => {
 
                         </div>
                     </div>
-
+                    {/* <h2 className="mb-2 mt-3 text-center section-divider w-100" >
+                    </h2> */}
                     <div className="mb-2">
                         <h5 className="ml-3 smaller font-weight-normal">
                             Note: All quizzes will start once directed to the page.
@@ -93,6 +94,8 @@ const Quizzes = ({handlePageChange}) => {
                                 <Card.Body>
                                     <Card.Title className="text-light title">{quizzes.title}</Card.Title> <Card.Text className="text-white">Difficulty Level:  {quizzes.difficultyLevel}
                                     </Card.Text>
+                                    <Card.Text className="text-white">Duration: {quizzes.duration} mins
+                                    </Card.Text>
                                     <Card.Text className="text-white">{quizzes.description}
                                     </Card.Text>
                                     <Button variant="info" size="md" className="mb-1 mt-auto" ><a href={quizzes.pageUrlButton} target="_blank" rel="noreferrer" className="btn1">{quizzes.quizNumber}</a></Button>
@@ -103,15 +106,30 @@ const Quizzes = ({handlePageChange}) => {
                         )}
                     </div>
                 </Row>
+                <h2 className="mb-2 mt-3 text-center section-divider w-100" >
+                </h2>
 
                 <Row className='mt-4'>
                     <div className="mt-1 mb-4 pb-2 text-left quiz-welcome">
-                        <h3 className="mt-2 ml-2 text-center">Are you ready to turn it up a notch?</h3><br></br> <p className="text-left m-4 quiz-intruction" >Below, you'll find a series of 20-question  exams(exams may contain bonus questions) that will assess your ASCO knowledge, ranging from easy to challenging.<br></br><p>Here are the quick layout of the exams</p><li>10 multiple choice questions</li><li>10 True or False</li><li>You will be given 20 minutes to complete an exam.
-                        </li><li>Time will be displayed in seconds</li><li>Remember timer starts as soon as exam is open.</li><br></br></p><p className="text-center font-weight-bolder">Are you ready to demonstrate your expertise and climb the ranks?</p><br></br><p className="text-center">Good Luck!</p><br></br><p>Be sure to review ASCO's Digital Binder</p>
+                        <h3 className="mt-2 ml-2 text-center">Are you ready to turn it up a notch?</h3><br></br>
+                        <p className="text-left m-4 quiz-intruction">Below, you will discover a set of 20-question exams (some of which may include bonus questions) designed to evaluate your knowledge of ASCO. These exams span a spectrum from easy to challenging.</p>
+
+                        <p className="text-left m-4 quiz-intruction">Here is a quick overview of the exam structure:</p>
+                        <ul className="text-left m-4 quiz-intruction">
+                            <li>10 multiple choice questions</li>
+                            <li>10 True or False questions</li>
+                            <li>You will have 20 minutes to finish each exam.</li>
+                            <li>The time will be prominently displayed in seconds.</li>
+                            <li>Please keep in mind that the timer begins as soon as you open the exam.</li>
+                        </ul><br></br>
+
+
+                        {/* <p className="text-left m-4 quiz-intruction" >Below, you'll find a series of 20-question  exams(exams may contain bonus questions) that will assess your ASCO knowledge, ranging from easy to challenging.<br></br><p>Here are the quick layout of the exams</p><li>10 multiple choice questions</li><li>10 True or False</li><li>You will be given 20 minutes to complete an exam. </li><li>Time will be displayed in seconds</li><li>Remember timer starts as soon as exam is open.</li><br></br></p><br></br> */}
+                        <p className="text-center">Good Luck!</p><br></br><p>Be sure to review ASCO's Digital Binder</p>
                         <div className="d-flex justify-content-center">
-                           
-                                <Button variant="info" size="md" className="carousel-btn   mx-auto m-2 " style={{ maxWidth: '200px' }}><a href='https://asco-power.cld.bz/ASCO-Power-Technologies-Products-Digital-Binder' target="_blank" rel="noreferrer" className="btn1" >Digital Binder <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button>
-                          
+
+                            <Button variant="info" size="md" className="carousel-btn   mx-auto m-2 " style={{ maxWidth: '200px' }}><a href='https://asco-power.cld.bz/ASCO-Power-Technologies-Products-Digital-Binder' target="_blank" rel="noreferrer" className="btn1" >Digital Binder <span><i class="fa fa-external-link" aria-hidden="true"></i></span></a></Button>
+
 
                         </div>
                     </div>
@@ -124,6 +142,10 @@ const Quizzes = ({handlePageChange}) => {
                             <Card key={key} variant="secondary" className="m-2 p-2 quiz-cards" style={{ width: '18rem', backgroundColor: "#3dcd58", boxShadow: '0 0 30px rgba(0, 0, 0, 0.5)' }}>
                                 <Card.Body>
                                     <Card.Title className="text-light title">{exams.title}</Card.Title> <Card.Text className="text-white">Difficulty Level:  {exams.difficultyLevel}
+                                    </Card.Text>
+                                    <Card.Text className="text-white">{exams.bonus}
+                                    </Card.Text>
+                                    <Card.Text className="text-white">Duration: {exams.duration} mins
                                     </Card.Text>
                                     <Card.Text className="text-white">{exams.description}
                                     </Card.Text>
