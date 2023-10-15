@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/asco-study-center/static/css/main.8b0e5458.css",
-    "main.js": "/asco-study-center/static/js/main.4f21402f.js",
+    "main.js": "/asco-study-center/static/js/main.6e860c5c.js",
     "static/js/787.0d594e5e.chunk.js": "/asco-study-center/static/js/787.0d594e5e.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/asco-study-center/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/asco-study-center/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/asco-study-center/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/asco-study-center/index.html",
     "main.8b0e5458.css.map": "/asco-study-center/static/css/main.8b0e5458.css.map",
-    "main.4f21402f.js.map": "/asco-study-center/static/js/main.4f21402f.js.map",
+    "main.6e860c5c.js.map": "/asco-study-center/static/js/main.6e860c5c.js.map",
     "787.0d594e5e.chunk.js.map": "/asco-study-center/static/js/787.0d594e5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b0e5458.css",
-    "static/js/main.4f21402f.js"
+    "static/js/main.6e860c5c.js"
   ]
 }
