@@ -4,9 +4,15 @@ import AboutAsco from "./AboutAsco";
 import React, { useState } from "react";
 import Products from "./Products";
 import StudyCenter from "./StudyCenter";
-import QuizCenterOne from "./QuizCenterOne";
-import QuizCenterTwo from "./QuizCenterTwo";
-import QuizCenterThree from "./QuizCenterThree";
+import Quizzes from "./QuizCenter";
+import QuizCenterOne from "./QuizOne";
+import QuizCenterTwo from "./QuizTwo";
+import QuizCenterThree from "./QuizThree";
+import QuizCenterFour from "./QuizFour";
+import ExamOne from "./ExamOne";
+import ExamTwo from "./ExamTwo";
+import ExamThree from "./ExamThree";
+
 
 
 const Header = () => {
@@ -19,11 +25,26 @@ const Header = () => {
     if (currentPage === 'quizcenterone') {
       return <QuizCenterOne />;
     }
+    if (currentPage === 'quizzes') {
+      return <Quizzes />;
+    }
     if (currentPage === 'quizcentertwo') {
       return <QuizCenterTwo />;
     }
     if (currentPage === 'quizcenterthree') {
       return <QuizCenterThree />;
+    }
+    if (currentPage === 'quizcenterfour') {
+      return <QuizCenterFour />;
+    }
+    if (currentPage === 'examone') {
+      return <ExamOne />;
+    }
+    if (currentPage === 'examtwo') {
+      return <ExamTwo />;
+    }
+    if (currentPage === 'examthree') {
+      return <ExamThree />;
     }
     if (currentPage === 'products') {
       return <Products />;

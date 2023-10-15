@@ -9,9 +9,14 @@ import NavigationBar from "../src/components/NavigationBar";
 import AboutAsco from "../src/components/AboutAsco";
 import Products from "../src/components/Products";
 import StudyCenter from "../src/components/StudyCenter";
-import QuizCenterOne from "../src/components/QuizCenterOne";
-import QuizCenterTwo from "../src/components/QuizCenterTwo";
-import QuizCenterThree from "../src/components/QuizCenterThree";
+import QuizCenter from "./components/QuizCenter";
+import QuizOne from "./components/QuizOne";
+import QuizTwo from "./components/QuizTwo";
+import QuizThree from "../src/components/QuizThree";
+import QuizFour from "../src/components/QuizFour";
+import ExamOne from "../src/components/ExamOne";
+import ExamTwo from "../src/components/ExamTwo";
+import ExamThree from "../src/components/ExamThree";
 
 
 
@@ -31,11 +36,21 @@ function App() {
           />
           <Route path="/studycenter" element={<StudyCenter />}
           />
-          <Route path="/quizcenterone" element={<QuizCenterOne />}
+          <Route path="/quizcenter" element={<QuizCenter />}
           />
-           <Route path="/quizcentertwo" element={<QuizCenterTwo />}
+          <Route path="/quizone" element={<QuizOne />}
           />
-           <Route path="/quizcenterthree" element={<QuizCenterThree />}
+          <Route path="/quiztwo" element={<QuizTwo />}
+          />
+          <Route path="/quizthree" element={<QuizThree />}
+          />
+         <Route path="/quizfour" element={<QuizFour />}
+          />
+          <Route path="/examone" element={<ExamOne />}
+          />
+          <Route path="/examtwo" element={<ExamTwo />}
+          />
+          <Route path="/examthree" element={<ExamThree />}
           />
         </Routes>
       </div>

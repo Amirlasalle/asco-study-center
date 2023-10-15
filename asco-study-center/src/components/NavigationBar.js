@@ -80,10 +80,15 @@ const NavigationBar = ({ handlePageChange }) => {
                                 <Link to="/studycenter" onClick={() => handleNavLinkClick('/studycenter')}className='custom-link'>
                                     Study Center
                                 </Link>
-
                             </Nav.Link>
 
-                            <NavDropdown title="Quizzes" id="navDropdown" className='navbar-static  custom-links text'>
+                            <Nav.Link>
+                                <Link to="/quizcenter" onClick={() => handleNavLinkClick('/quizcenter')}className='custom-link'>
+                                    Quiz Center
+                                </Link>
+                            </Nav.Link>
+
+                            {/* <NavDropdown title="Quiz Center" id="navDropdown" className='navbar-static  custom-links text'>
                                 <NavDropdown.Item>
                                     <Link to="/quizcenterone" onClick={() => handleNavLinkClick('/quizcenterone')} style={{ textDecoration: 'none' }} className=' custom-links'>Quiz 1<span>{''}</span><span>{''}</span> <span className="smaller" style={{ display: 'inline-block', verticalAlign: 'top' }}>
                                     Difficulty<br /> Level
@@ -103,7 +108,7 @@ const NavigationBar = ({ handlePageChange }) => {
                                 </span><i class="justify-content-between ml-2 fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></Link>
 
                                 </NavDropdown.Item>
-                            </NavDropdown>
+                            </NavDropdown> */}
 
                             <NavDropdown title="Social Media" id="navDropdown" className=' pr-0 custom-links '>
                                 <NavDropdown.Item

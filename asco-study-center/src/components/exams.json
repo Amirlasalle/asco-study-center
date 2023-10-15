@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Exam 1",
+        "difficultyLevel": "\u2605\u2605\u2605",
+        "description": "Exam designed for those with a basic understanding of transfer switches, providing a simple assessment of your knowledge in this field.",
+        "pageUrlButton": "#/examone",
+        "quizNumber": "Start Exam 1"
+    }, 
+    {
+        "title": "Exam 2",
+        "difficultyLevel": "\u2605\u2605\u2605\u2605",
+        "description": "Exam is tailored to individuals with a solid understanding of transfer switches, presenting a moderately demanding assessment of your knowledge in this field.",
+        "pageUrlButton": "#/examtwo",
+        "quizNumber": "Start Exam 2"
+    },
+    {
+        "title": "Exam 3",
+        "difficultyLevel": "\u2605\u2605\u2605\u2605\u2605",
+        "description": "Advanced-level exam is specifically designed for experts with advanced knowledge in transfer switches, providing a comprehensive assessment of your mastery in this field.",
+        "pageUrlButton": "#/examthree",
+        "quizNumber": "Start Exam 3"
+    }
+]

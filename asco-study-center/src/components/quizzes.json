@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Quiz 1",
+        "difficultyLevel": "\u2605",
+        "description": "Easy-level quiz, perfect for beginners and learners looking to boost their confidence.",
+        "pageUrlButton": "#/quizone",
+        "quizNumber": "Start Quiz 1"
+    }, 
+    {
+        "title": "Quiz 2",
+        "difficultyLevel": "\u2605\u2605",
+        "description": "Quiz crafted to challenge beginners and sharpen their understanding of ATS's with more fundamental knowledge.",
+        "pageUrlButton": "#/quiztwo",
+        "quizNumber": "Start Quiz 2"
+    },
+    {
+        "title": "Quiz 3",
+        "difficultyLevel": "\u2605\u2605\u2605",
+        "description": "A moderately advanced quiz tailored for those seeking to expand their expertise and knowledge, ideal for refining your skills in the subject matter.",
+        "pageUrlButton": "#/quizthree",
+        "quizNumber": "Start Quiz 3"
+    },
+    {
+        "title": "Quiz 4",
+        "difficultyLevel": "\u2605\u2605\u2605\u2605",
+        "description": "A high-level quiz intended for experts and those with advanced knowledge, ideal for testing your mastery of the subject.",
+        "pageUrlButton": "#/quizfour",
+        "quizNumber": "Start Quiz 4"
+    }
+]

@@ -29,9 +29,7 @@ const Footer = () => {
       <br></br>
       <Link to="/studycenter" onClick={() => handleFooterLinkClick('/studycenter')} style={{ textDecoration: 'none' }} className='footer-text'>Study Center</Link>
       <br></br>
-      <Link to="/quizcenterone" onClick={() => handleFooterLinkClick('/quizcenterone')} style={{ textDecoration: 'none' }} className='footer-text'>Quiz 1</Link><span>{' - '}</span>
-      <Link to="/quizcentertwo" onClick={() => handleFooterLinkClick('/quizcentertwo')} style={{ textDecoration: 'none' }} className='footer-text'>Quiz 2</Link><span>{' - '}</span>
-      <Link to="/quizcenterthree" onClick={() => handleFooterLinkClick('/quizcenterthree')} style={{ textDecoration: 'none' }} className='footer-text'>Quiz 3</Link>
+      <Link to="/quizcenter" onClick={() => handleFooterLinkClick('/quizcenterone')} style={{ textDecoration: 'none' }} className='footer-text'>Quiz Center</Link>
       <br></br>
       <br></br>
       <Link to="/" onClick={() => handleFooterLinkClick('/')} style={{ textDecoration: 'none' }} className='footer-text'>©2023, ASCO Power Technologies</Link>

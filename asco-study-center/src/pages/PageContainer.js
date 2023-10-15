@@ -106,7 +106,7 @@ const PageContainer = () => {
                 <h5 className='outlined-text'>ASCO's Digital Binder provides a various source of information</h5>
                 <div className="button-container">
                   <Button variant="info" size="md" className="carousel-btn btn-block mx-auto" style={{ maxWidth: '150px' }}>
-                    <a href='https://www.youtube.com/watch?v=3zNO-2RBqKY' target="_blank" rel="noreferrer" className="btn1">Read More <span><i class="fa fa-book" aria-hidden="true"></i></span></a>
+                    <a href='https://asco-power.cld.bz/ASCO-Power-Technologies-Products-Digital-Binder' target="_blank" rel="noreferrer" className="btn1">Read More <span><i class="fa fa-book" aria-hidden="true"></i></span></a>
                   </Button>
                 </div>
               </Carousel.Caption>

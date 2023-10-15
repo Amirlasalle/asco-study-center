@@ -1,0 +1,115 @@
+[
+
+    {
+        "question":"ATS accessories such as load shedding modules are used for:",
+        "choiceA":"Increasing the load on the generator",
+        "choiceB":"Shedding unnecessary loads during a power outage",
+        "choiceC":"Enhancing the voltage regulation of the ATS",
+        "choiceD":"Measuring the power factor of connected devices",
+        "answer":"Shedding unnecessary loads during a power outage"
+    },
+    {
+        "question":"Which ATS accessory is used to provide additional protection to the generator during extended power outages and prevents it from overheating or overloading?",
+        "choiceA":"Load shedding module",
+        "choiceB":"Surge protector",
+        "choiceC":"Overcurrent protection device",
+        "choiceD":"Coolant circulator",
+        "answer":"Load shedding module"
+    },
+    {
+        "question":"The exercise function on an ATS controller is used for:",
+        "choiceA":"Starting the backup generator",
+        "choiceB":"Automatically testing the ATS and connected loads",
+        "choiceC":"Simulating a power outage",
+        "choiceD":"Regulating the voltage",
+        "answer":"Starting the backup generator"
+    },
+    {
+        "question":"Which ATS accessory is designed to protect sensitive electronic equipment from power surges and voltage spikes?",
+        "choiceA":"Surge protector",
+        "choiceB":"Load bank",
+        "choiceC":"Circuit breaker",
+        "choiceD":"Closed-transition ATS is more energy-efficient",
+        "answer":"Surge protector"
+    },
+    {
+        "question":"What is the primary function of a bypass isolation switch in an ATS system?",
+        "choiceA":"To disconnect the generator during a power outage",
+        "choiceB":"To bypass the ATS for maintenance purposes",
+        "choiceC":"To synchronize the generator with the utility power",
+        "choiceD":"To increase the load capacity of the ATS",
+        "answer":"To bypass the ATS for maintenance purposes"
+    },
+    {
+        "question":"If the neutral of the two transformers are separately grounded, how many poles should the ATS have?",
+        "choiceA":"4-pole",
+        "choiceB":"2-pole",
+        "choiceC":"3-pole",
+        "choiceD":"It doesn't matter",
+        "answer":"4-pole"
+    },
+    {
+        "question":"If the neutral of the two transformers are tied together and the tied to ground at a single point, you can use:",
+        "choiceA":"A 4-pole switch",
+        "choiceB":"A 2-pole switch",
+        "choiceC":"A 3-pole switch",
+        "choiceD":"Both a 3-pole switch, and a 4-pole switch",
+        "answer":"Both a 3-pole switch, and a 4-pole switch"
+    },
+    {
+        "question":"ATS accessories such as load shedding modules are used for:",
+        "choiceA":"Increasing the load on the generator",
+        "choiceB":"Shedding unnecessary loads during a power outage",
+        "choiceC":"Enhancing the voltage regulation of the ATS",
+        "choiceD":"Measuring the power factor of connected devices",
+        "answer":"Shedding unnecessary loads during a power outage"
+    },
+    {
+        "question":"Which ATS accessory is used to provide additional protection to the generator during extended power outages and prevents it from overheating or overloading?",
+        "choiceA":"Load shedding module",
+        "choiceB":"Surge protector",
+        "choiceC":"Overcurrent protection device",
+        "choiceD":"Coolant circulator",
+        "answer":"Load shedding module"
+    },
+    {
+        "question":"The exercise function on an ATS controller is used for:",
+        "choiceA":"Starting the backup generator",
+        "choiceB":"Automatically testing the ATS and connected loads",
+        "choiceC":"Simulating a power outage",
+        "choiceD":"Regulating the voltage",
+        "answer":"Starting the backup generator"
+    },
+    {
+        "question":"Which ATS accessory is designed to protect sensitive electronic equipment from power surges and voltage spikes?",
+        "choiceA":"Surge protector",
+        "choiceB":"Load bank",
+        "choiceC":"Circuit breaker",
+        "choiceD":"Closed-transition ATS is more energy-efficient",
+        "answer":"Surge protector"
+    },
+    {
+        "question":"What is the primary function of a bypass isolation switch in an ATS system?",
+        "choiceA":"To disconnect the generator during a power outage",
+        "choiceB":"To bypass the ATS for maintenance purposes",
+        "choiceC":"To synchronize the generator with the utility power",
+        "choiceD":"To increase the load capacity of the ATS",
+        "answer":"To bypass the ATS for maintenance purposes"
+    },
+    {
+        "question":"If the neutral of the two transformers are separately grounded, how many poles should the ATS have?",
+        "choiceA":"4-pole",
+        "choiceB":"2-pole",
+        "choiceC":"3-pole",
+        "choiceD":"It doesn't matter",
+        "answer":"4-pole"
+    },
+    {
+        "question":"If the neutral of the two transformers are tied together and the tied to ground at a single point, you can use:",
+        "choiceA":"A 4-pole switch",
+        "choiceB":"A 2-pole switch",
+        "choiceC":"A 3-pole switch",
+        "choiceD":"Both a 3-pole switch, and a 4-pole switch",
+        "answer":"Both a 3-pole switch, and a 4-pole switch"
+    }
+]
