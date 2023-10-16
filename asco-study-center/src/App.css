@@ -760,11 +760,11 @@ button {
       top: 45%;
       left: 0;
       right: 0;
-      transform: translateY(-50%);
+      transform: translateY(-45%);
       text-align: center;
       color: white;
       padding: 10px;
-      font-size: .8rem !important;
+      font-size: 1.5rem !important;
       font-weight: bolder !important;
     }
     .banner-text {
@@ -780,6 +780,51 @@ button {
       font-size: 1.8rem !important;
     }
     }
+    
+    @media screen and (max-width: 304px) {
+      .about-outlined-text {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+        padding: 10px;
+        font-size: .8rem !important;
+      }
+      .outlined-text {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 0;
+        right: 0;
+        transform: translateY(-45%);
+        text-align: center;
+        color: white;
+        padding: 10px;
+        font-size: 1rem !important;
+        font-weight: bolder !important;
+      }
+      .banner-text {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: translateY(-60%);
+        text-align: center;
+        color: #fff;
+        font-size: 1.8rem !important;
+      }
+      }
+
     @media screen and (max-width: 314px){
       .mar{
         margin-bottom: 123.45px;
