@@ -9,6 +9,7 @@ import NavigationBar from "../src/components/NavigationBar";
 import AboutAsco from "../src/components/AboutAsco";
 import Products from "../src/components/Products";
 import StudyCenter from "../src/components/StudyCenter";
+import FlashCards from "../src/components/FlashCards";
 import QuizCenter from "./components/QuizCenter";
 import QuizOne from "./components/QuizOne";
 import QuizTwo from "./components/QuizTwo";
@@ -36,6 +37,8 @@ function App() {
           <Route path="/products" element={<Products />}
           />
           <Route path="/studycenter" element={<StudyCenter />}
+          />
+           <Route path="/flashcards" element={<FlashCards />}
           />
           <Route path="/quizcenter" element={<QuizCenter />}
           />

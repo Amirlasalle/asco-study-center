@@ -29,6 +29,8 @@ const Footer = () => {
       <br></br>
       <Link to="/studycenter" onClick={() => handleFooterLinkClick('/studycenter')} style={{ textDecoration: 'none' }} className='footer-text'>Study Center</Link>
       <br></br>
+      <Link to="/flashcards" onClick={() => handleFooterLinkClick('/flashcards')} style={{ textDecoration: 'none' }} className='footer-text'>Flash Cards</Link>
+      <br></br>
       <Link to="/quizcenter" onClick={() => handleFooterLinkClick('/quizcenterone')} style={{ textDecoration: 'none' }} className='footer-text'>Quiz Center</Link>
       <br></br>
       <br></br>

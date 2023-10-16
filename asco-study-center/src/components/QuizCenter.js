@@ -124,7 +124,7 @@ const Quizzes = ({ handlePageChange }) => {
                         </ul><br></br>
 
 
-                        {/* <p className="text-left m-4 quiz-intruction" >Below, you'll find a series of 20-question  exams(exams may contain bonus questions) that will assess your ASCO knowledge, ranging from easy to challenging.<br></br><p>Here are the quick layout of the exams</p><li>10 multiple choice questions</li><li>10 True or False</li><li>You will be given 20 minutes to complete an exam. </li><li>Time will be displayed in seconds</li><li>Remember timer starts as soon as exam is open.</li><br></br></p><br></br> */}
+
                         <p className="text-center">Good Luck!</p><br></br><p>Be sure to review ASCO's Digital Binder</p>
                         <div className="d-flex justify-content-center">
 

@@ -414,12 +414,27 @@ left: 0 !important;
   background-color: #fff;
   box-shadow: -9px 4px 5px 6px rgba(0, 0, 0, 0.5);
 }
+.study-welcome {
+  color: #000;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1rem !important;
+  text-align: center !important;
+  font-weight: light !important;
+  background-color: #ffffff;
+}
 
 .quiz-welcome {
   color: #000;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1rem !important;
   text-align: center !important;
+  font-weight: bolder !important;
+  background-color: #ffffff;
+}
+.quiz-ready {
+  color: #000;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1rem !important;
   font-weight: bolder !important;
   background-color: #ffffff;
 }
@@ -497,6 +512,12 @@ left: 0 !important;
   height: 20vh !important;
   object-fit: cover;
   filter: brightness(30%);
+}
+.sc-banner-image{
+  width: 100vw;
+  height: 20vh !important;
+  object-fit: cover;
+  filter: brightness(45%);
 }
 
 
