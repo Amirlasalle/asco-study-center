@@ -110,7 +110,6 @@
         "choiceB":"False",
         "answer":"True"
     },
-    ,
     {
         "question":"16) True or False: The ASCO 300G Generator Paralleling Control Switchgear allows for the seamless paralleling of multiple generators to meet varying load demands.",
         "choiceA":"True",
@@ -136,7 +135,7 @@
         "answer":"False"
     },
     {
-        "question":"True or False: LED indicating lights shall be provided to indicated: bypass position, fully isolated position, and sourxe availiblty is standard on 7000 series ATSs",
+        "question":"20) True or False: LED indicating lights shall be provided to indicated: bypass position, fully isolated position, and sourxe availiblty is standard on 7000 series ATSs",
         "choiceA":"True",
         "choiceB":"False",
         "answer":"True"
