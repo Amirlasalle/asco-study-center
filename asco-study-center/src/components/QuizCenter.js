@@ -118,7 +118,7 @@ const Quizzes = ({ handlePageChange }) => {
                         <ul className="text-left m-4 quiz-intruction">
                             <li>10 multiple choice questions</li>
                             <li>10 True or False questions</li>
-                            <li>You will have 20 minutes to finish each exam.</li>
+                            <li>You will have 20 minutes to finish each exam (exam 1 or exam 2).</li><li>25 minutes will be given for exam 3</li>
                             <li>The time will be prominently displayed in seconds.</li>
                             <li>Please keep in mind that the timer begins as soon as you open the exam.</li><li>Total score is equal to the amount of questions answered correctly + the remaining time left.</li>
                         </ul><br></br>
