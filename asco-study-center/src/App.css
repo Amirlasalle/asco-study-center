@@ -425,7 +425,7 @@ left: 0 !important;
   font-weight: lighter !important;
 }
 .quiz-cards:hover{
-  transform: translateY(-10px) scale(1.009) translateZ(0);
+  transform: translateY(0px) scale(1.009) translateZ(10px);
   box-shadow: 0 24px 36px rgba(0,0,0,0.11),
     0 24px 46px;
 }

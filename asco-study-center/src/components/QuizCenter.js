@@ -120,7 +120,7 @@ const Quizzes = ({ handlePageChange }) => {
                             <li>10 True or False questions</li>
                             <li>You will have 20 minutes to finish each exam.</li>
                             <li>The time will be prominently displayed in seconds.</li>
-                            <li>Please keep in mind that the timer begins as soon as you open the exam.</li>
+                            <li>Please keep in mind that the timer begins as soon as you open the exam.</li><li>Total score is equal to the amount of questions answered correctly + the remaining time left.</li>
                         </ul><br></br>
 
 

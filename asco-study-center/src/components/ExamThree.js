@@ -86,14 +86,22 @@ function ExamThree() {
 
   const displayQuestion = () => {
     const currentExam = examData[currentQuestion];
+
+    const hasChoiceC = currentExam.hasOwnProperty('choiceC');
+    const hasChoiceD = currentExam.hasOwnProperty('choiceD');
+
     return (
       <Container className="mb-5 mt-5">
         <h2 id="question">{currentExam.question}</h2>
         <div className="d-grid gap-2">
           <Button className="btn btn-primary" type="button" onClick={() => checkAnswer(currentExam.choiceA)}>{currentExam.choiceA}</Button>
           <Button className="btn btn-primary" type="button" onClick={() => checkAnswer(currentExam.choiceB)}>{currentExam.choiceB}</Button>
-          <Button className="btn btn-primary" type="button" onClick={() => checkAnswer(currentExam.choiceC)}>{currentExam.choiceC}</Button>
-          <Button className="btn btn-primary" type="button" onClick={() => checkAnswer(currentExam.choiceD)}>{currentExam.choiceD}</Button>
+          {hasChoiceC && (
+            <Button className="btn btn-primary" type="button" onClick={() => checkAnswer(currentExam.choiceC)}>{currentExam.choiceC}</Button>
+          )}
+          {hasChoiceD && (
+            <Button className="btn btn-primary" type="button" onClick={() => checkAnswer(currentExam.choiceD)}>{currentExam.choiceD}</Button>
+          )}
         </div>
         <h4 id="evaluate">{evaluateText}</h4>
       </Container>
