@@ -1,115 +1,145 @@
 [
 
     {
-        "question":"ATS accessories such as load shedding modules are used for:",
-        "choiceA":"Increasing the load on the generator",
-        "choiceB":"Shedding unnecessary loads during a power outage",
-        "choiceC":"Enhancing the voltage regulation of the ATS",
-        "choiceD":"Measuring the power factor of connected devices",
-        "answer":"Shedding unnecessary loads during a power outage"
+        "question":"1) Which is the correct accessory? Status Relay Bundle - Provides 1 relay (3 total) for each of the following statuses, Normal Source Acceptability, Emergency Source Acceptability, Pre & Post Transfer Signal. Each relay has 2 NO/NC (Form C) sets of contacts rated for 6A at 120Vac, 250Vac Max.?",
+        "choiceA":"31BG",
+        "choiceB":"72EE2",
+        "choiceC":"44G",
+        "choiceD":"135L",
+        "answer":"31BG"
     },
     {
-        "question":"Which ATS accessory is used to provide additional protection to the generator during extended power outages and prevents it from overheating or overloading?",
-        "choiceA":"Load shedding module",
-        "choiceB":"Surge protector",
-        "choiceC":"Overcurrent protection device",
-        "choiceD":"Coolant circulator",
-        "answer":"Load shedding module"
+        "question":"2) Which is the correct accessory? 5170 Quad-Ethernet Module provides transfer switch dashboard screen with password protected control capabilities, email alerts and open protocol support in a single module with an integrated 4 port Ethernet switch.",
+        "choiceA":"99",
+        "choiceB":"11BE",
+        "choiceC":"72EE2",
+        "choiceD":"12BS",
+        "answer":"72EE2"
     },
     {
-        "question":"The exercise function on an ATS controller is used for:",
-        "choiceA":"Starting the backup generator",
-        "choiceB":"Automatically testing the ATS and connected loads",
-        "choiceC":"Simulating a power outage",
-        "choiceD":"Regulating the voltage",
-        "answer":"Starting the backup generator"
+        "question":"3) Which is the correct accessory? Selective Load disconnect circuit to provide a pre-transfer and/or post transfer signal when transferring from emergency to normal and/or normal to emergency. The signal can be programmed to occur during all transfers or only when the transfer is occurring between two live sources. The length of the pre and post transfer delays can be set to 0-5 minutes 59 seconds.",
+        "choiceA":"125A",
+        "choiceB":"119M",
+        "choiceC":"135L",
+        "choiceD":"31Z",
+        "answer":"31Z"
     },
     {
-        "question":"Which ATS accessory is designed to protect sensitive electronic equipment from power surges and voltage spikes?",
-        "choiceA":"Surge protector",
-        "choiceB":"Load bank",
-        "choiceC":"Circuit breaker",
-        "choiceD":"Closed-transition ATS is more energy-efficient",
-        "answer":"Surge protector"
+        "question":"4) Based off specs, which accessory is most appropriate? The switch shall be equipped with provisions to accept two-hole. long barrel, copper compression-type lugs.",
+        "choiceA":"Accessory 62B1",
+        "choiceB":"Accessory 63",
+        "choiceC":"18RX",
+        "choiceD":"Accessory 134",
+        "answer":"Accessory 63"
     },
     {
-        "question":"What is the primary function of a bypass isolation switch in an ATS system?",
-        "choiceA":"To disconnect the generator during a power outage",
-        "choiceB":"To bypass the ATS for maintenance purposes",
-        "choiceC":"To synchronize the generator with the utility power",
-        "choiceD":"To increase the load capacity of the ATS",
-        "answer":"To bypass the ATS for maintenance purposes"
+        "question":"5) Based off specs, which accessory is most appropriate? Transfer Override Switch: Overrides automat1ic retransfer control so automatic transfer switch will remain connected to emergency power source regardless of condition of normal source Pilot light indicates override status.",
+        "choiceA":"6DL",
+        "choiceB":"5L",
+        "choiceC":"31CJ",
+        "choiceD":"Accessory 1G",
+        "answer":"6DL"
     },
     {
-        "question":"If the neutral of the two transformers are separately grounded, how many poles should the ATS have?",
-        "choiceA":"4-pole",
-        "choiceB":"2-pole",
-        "choiceC":"3-pole",
-        "choiceD":"It doesn't matter",
-        "answer":"4-pole"
+        "question":"6) Which of the following Accessories is standard on a 7000 series ATS?",
+        "choiceA":"44G",
+        "choiceB":"31Z",
+        "choiceC":"11BE",
+        "choiceD":"31BG",
+        "answer":"11BE"
     },
     {
-        "question":"If the neutral of the two transformers are tied together and the tied to ground at a single point, you can use:",
-        "choiceA":"A 4-pole switch",
-        "choiceB":"A 2-pole switch",
-        "choiceC":"A 3-pole switch",
-        "choiceD":"Both a 3-pole switch, and a 4-pole switch",
-        "answer":"Both a 3-pole switch, and a 4-pole switch"
+        "question":"7) Which of the following Accessories can be activated on a series 300 ATS?",
+        "choiceA":"31Z",
+        "choiceB":"72EE2",
+        "choiceC":"11BE",
+        "choiceD":"18RX",
+        "answer":"31Z"
     },
     {
-        "question":"ATS accessories such as load shedding modules are used for:",
-        "choiceA":"Increasing the load on the generator",
-        "choiceB":"Shedding unnecessary loads during a power outage",
-        "choiceC":"Enhancing the voltage regulation of the ATS",
-        "choiceD":"Measuring the power factor of connected devices",
-        "answer":"Shedding unnecessary loads during a power outage"
+        "question":"8) Which of the following accessory combinations make up to be accessory 31BG?",
+        "choiceA":"11BE, 7ES, 72EE2",
+        "choiceB":"5L, 6DL, 11BE",
+        "choiceC":"53BK, 14A, 29M",
+        "choiceD":"11BE ,18RX, 31Z",
+        "answer":"11BE ,18RX, 31Z"
     },
     {
-        "question":"Which ATS accessory is used to provide additional protection to the generator during extended power outages and prevents it from overheating or overloading?",
-        "choiceA":"Load shedding module",
-        "choiceB":"Surge protector",
-        "choiceC":"Overcurrent protection device",
-        "choiceD":"Coolant circulator",
-        "answer":"Load shedding module"
+        "question":"9) Which accessory is an equivelant to accessory 18RX for the 7000 series ATS?",
+        "choiceA":"18RX2",
+        "choiceB":"1G",
+        "choiceC":"31BG",
+        "choiceD":"31Z",
+        "answer":"1G"
     },
     {
-        "question":"The exercise function on an ATS controller is used for:",
-        "choiceA":"Starting the backup generator",
-        "choiceB":"Automatically testing the ATS and connected loads",
-        "choiceC":"Simulating a power outage",
-        "choiceD":"Regulating the voltage",
-        "answer":"Starting the backup generator"
+        "question":"10) Based off specs, which accessory is most appropriate? Load Test Switch: Load test switch to simulate normal power failure. (Maintained type).",
+        "choiceA":"5L",
+        "choiceB":"6DL",
+        "choiceC":"31CJ",
+        "choiceD":"11BE",
+        "answer":"5L"
     },
     {
-        "question":"Which ATS accessory is designed to protect sensitive electronic equipment from power surges and voltage spikes?",
-        "choiceA":"Surge protector",
-        "choiceB":"Load bank",
-        "choiceC":"Circuit breaker",
-        "choiceD":"Closed-transition ATS is more energy-efficient",
-        "answer":"Surge protector"
+        "question":"11) True or False: Accessory 44G is standard on all NEMA 3R enclosures.",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"False"
     },
     {
-        "question":"What is the primary function of a bypass isolation switch in an ATS system?",
-        "choiceA":"To disconnect the generator during a power outage",
-        "choiceB":"To bypass the ATS for maintenance purposes",
-        "choiceC":"To synchronize the generator with the utility power",
-        "choiceD":"To increase the load capacity of the ATS",
-        "answer":"To bypass the ATS for maintenance purposes"
+        "question":"12) True or False: H-Frame ATSs are available from 600A to 1200A",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"True"
     },
     {
-        "question":"If the neutral of the two transformers are separately grounded, how many poles should the ATS have?",
-        "choiceA":"4-pole",
-        "choiceB":"2-pole",
-        "choiceC":"3-pole",
-        "choiceD":"It doesn't matter",
-        "answer":"4-pole"
+        "question":"13) True or False: Seismic Qualification Data: Certificates, for transfer switches, accessories, and components, from manufacturer. Based off specs accessory 125A is being called out.",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"True"
     },
     {
-        "question":"If the neutral of the two transformers are tied together and the tied to ground at a single point, you can use:",
-        "choiceA":"A 4-pole switch",
-        "choiceB":"A 2-pole switch",
-        "choiceC":"A 3-pole switch",
-        "choiceD":"Both a 3-pole switch, and a 4-pole switch",
-        "answer":"Both a 3-pole switch, and a 4-pole switch"
+        "question":"14) True or False: ASCO Power Control Systems can be used to monitor and control the entire power distribution network of a facility, not just the ATS.",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"True"
+    },
+    {
+        "question":"15) True or False: The ASCO 300 Series ATS offers a 30-cycle closing and withstand rating.",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"True"
+    },
+    ,
+    {
+        "question":"16) True or False: The ASCO 300G Generator Paralleling Control Switchgear allows for the seamless paralleling of multiple generators to meet varying load demands.",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"True"
+    },
+    {
+        "question":"17) True or False: ASCO's Load Bank Testing service is primarily used for the routine maintenance of generator sets and ATS units.",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"False"
+    },
+    {
+        "question":"18) True or False: ASCO ATSs with load shedding capabilities can automatically shed non-essential loads to ensure critical loads are adequately supplied with power during an outage.",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"True"
+    },
+    {
+        "question":"19) True or False: ASCO ATSs are designed for use with both DC (direct current) power systems, and AC (alternating current) power systems.",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"False"
+    },
+    {
+        "question":"True or False: LED indicating lights shall be provided to indicated: bypass position, fully isolated position, and sourxe availiblty is standard on 7000 series ATSs",
+        "choiceA":"True",
+        "choiceB":"False",
+        "answer":"True"
     }
+    
 ]
