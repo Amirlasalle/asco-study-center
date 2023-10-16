@@ -215,7 +215,7 @@ left: 0 !important;
 .section-divider {
   font-size: 2.3rem;
   letter-spacing: 3px;
-  background-color: #e4e4e4;
+  background-color: #f4f4f4;
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding: 8px;
@@ -378,10 +378,12 @@ left: 0 !important;
   width: 100%;
   height: 100%;
 }
+
 .custom-youtube-video {
   position: relative;
-  overflow: hidden;
+  width: 100%;
   padding-bottom: 56.25%;
+  height: 0;
 }
 
 .custom-youtube-video iframe {
@@ -456,6 +458,7 @@ left: 0 !important;
   color: #000;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1.6rem;
+  text-align: left;
   width: 100vw !important;
 }
 
@@ -465,6 +468,9 @@ left: 0 !important;
 .custom-color-years {
   background-color: #3dcd58;
   box-shadow: -9px 4px 5px 6px rgba(0, 0, 0, 0.5);
+}
+.custom-color-history {
+  background-color: #3dcd58;
 }
 .ascotime{
   left: 0;
