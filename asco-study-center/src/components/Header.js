@@ -61,7 +61,7 @@ const Header = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-  <div className="m-0">
+  <>
     <header>
       <NavigationBar page={currentPage} handlePageChange={handlePageChange} />
     </header>
@@ -71,7 +71,7 @@ const Header = () => {
       {renderPage()}
     </Container>
 
-  </div>)
+  </>)
 }
 
 

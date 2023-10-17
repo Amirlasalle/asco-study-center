@@ -14,7 +14,7 @@ const Products = () => {
         <Container id="productinfo" className="d-flex flex-wrap justify-content-around ">
             {productinfo.map((productinfo, key) =>
 
-                <Card key={key} className="m-2 p-2 shadow-lg" style={{ width: '18rem' }}>
+                <Card key={key} className="m-2 p-2 shadow-lg product-cards" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={process.env.PUBLIC_URL + productinfo.screenshot} />
                     <Card.Body>
                         <Card.Title className="card-titles">{productinfo.productname}</Card.Title>
